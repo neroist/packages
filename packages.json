@@ -1,5 +1,642 @@
 [
   {
+    "name": "shellcmd",
+    "url": "https://github.com/Alogani/shellcmd",
+    "method": "git",
+    "tags": [
+      "library",
+      "childprocess",
+      "async",
+      "script",
+      "bash",
+      "terminal",
+      "system administration"
+    ],
+    "description": "Collection of Terminal commands to be used inside nim",
+    "license": "MIT",
+    "web": "https://github.com/Alogani/shellcmd"
+  },
+  {
+    "name": "asyncproc",
+    "url": "https://github.com/Alogani/asyncproc",
+    "method": "git",
+    "tags": [
+      "library",
+      "childprocess",
+      "async"
+    ],
+    "description": "Flexible child process spawner with strong async features",
+    "license": "MIT",
+    "web": "https://github.com/Alogani/asyncproc"
+  },
+  {
+    "name": "aloganimisc",
+    "url": "https://github.com/Alogani/aloganimisc",
+    "method": "git",
+    "tags": [
+      "library",
+      "dependency"
+    ],
+    "description": "Dependency for asyncproc and shellcmd package. Small utilities not worthing a package. Not meant to be used in production",
+    "license": "MIT",
+    "web": "https://github.com/Alogani/aloganimisc"
+  },
+  {
+    "name": "asyncio",
+    "url": "https://github.com/Alogani/asyncio",
+    "method": "git",
+    "tags": [
+      "library",
+      "async",
+      "asyncfile",
+      "asyncpipe",
+      "asyncstreams"
+    ],
+    "description": "Async files and streams tools",
+    "license": "MIT",
+    "web": "https://github.com/Alogani/asyncio"
+  },
+  {
+    "name": "asyncsync",
+    "url": "https://github.com/Alogani/asyncsync",
+    "method": "git",
+    "tags": [
+      "library",
+      "async",
+      "primitives"
+    ],
+    "description": "Async primitives working on std/asyncdispatch",
+    "license": "MIT",
+    "web": "https://github.com/Alogani/asyncsync"
+  },
+  {
+    "name": "csvdict",
+    "url": "https://github.com/Alogani/csvdict",
+    "method": "git",
+    "tags": [
+      "csv",
+      "library",
+      "data"
+    ],
+    "description": "Another CsvTable API. Goals are efficient, simple and flexible",
+    "license": "MIT",
+    "web": "https://github.com/Alogani/csvdict"
+  },
+  {
+    "name": "well_parser",
+    "url": "https://codeberg.org/samsamros/RRC-permits",
+    "method": "git",
+    "tags": [
+      "Texas Railroad Commission",
+      "Drilling Permits",
+      "Injection wells"
+    ],
+    "description": "This project is intended to parse Texas Railroad Commission data provided in an unsuitable and non-transparent format. As of 2024, this code is able to parse Drilling Permit Master and Trailer and Underground Injection Control Data",
+    "license": "GPL-3.0",
+    "web": "https://codeberg.org/samsamros/RRC-permits"
+  },
+  {
+    "name": "avrman",
+    "url": "https://github.com/Abathargh/avrman",
+    "method": "git",
+    "tags": [
+      "avr",
+      "atmega",
+      "microcontroller",
+      "embedded",
+      "firmware",
+      "nim",
+      "nimble",
+      "cmake",
+      "make",
+      "makefile"
+    ],
+    "description": "A tool for managing nim and c projects targetting AVR microcontrollers.",
+    "license": "BSD-3",
+    "web": "https://github.com/Abathargh/avrman"
+  },
+  {
+    "name": "nimcso",
+    "url": "https://github.com/amkrajewski/nimcso",
+    "method": "git",
+    "tags": [
+      "data",
+      "optimization",
+      "metaprogramming",
+      "databases",
+      "data selection",
+      "ai",
+      "ml",
+      "science"
+    ],
+    "description": "nim Composition Space Optimization: A high-performance tool leveraging metaprogramming to implement several methods for selecting components (data dimensions) in compositional datasets, as to optimize the data availability and density for applications such as machine learning.",
+    "license": "MIT",
+    "web": "https://github.com/amkrajewski/nimcso",
+    "doc": "https://nimcso.phaseslab.org"
+  },
+  {
+    "name": "vqsort",
+    "url": "https://github.com/Asc2011/vqsort",
+    "method": "git",
+    "tags": [
+      "data",
+      "optimization",
+      "sorting",
+      "simd",
+      "quicksort"
+    ],
+    "description": "A vectorized Quicksort (AVX2-only)",
+    "license": "MIT"
+  },
+  {
+    "name": "nimplex",
+    "url": "https://github.com/amkrajewski/nimplex",
+    "method": "git",
+    "tags": [
+      "data",
+      "simplex",
+      "math",
+      "ai",
+      "ml",
+      "materials",
+      "science"
+    ],
+    "description": "NIM simPLEX: A concise scientific Nim library (with CLI and Python binding) providing samplings, uniform grids, and traversal graphs in compositional (simplex) spaces.",
+    "license": "MIT",
+    "web": "https://github.com/amkrajewski/nimplex",
+    "doc": "https://nimplex.phaseslab.org"
+  },
+  {
+    "name": "tagforge",
+    "url": "https://github.com/Nimberite-Development/TagForge-Nim",
+    "method": "git",
+    "tags": [
+      "minecraft",
+      "format",
+      "parse",
+      "dump",
+      "data",
+      "nbt",
+      "mc"
+    ],
+    "description": "A library made for the serialisation and deserialisation of MC NBT!",
+    "license": "Apache-2.0",
+    "web": "https://github.com/Nimberite-Development/TagForge-Nim",
+    "doc": "https://nimberite-development.github.io/TagForge-Nim/"
+  },
+  {
+    "name": "curlies",
+    "url": "https://github.com/svenrdz/curlies",
+    "method": "git",
+    "tags": [
+      "object construction",
+      "field init shorthand",
+      "update syntax",
+      "rust update syntax",
+      "fungus"
+    ],
+    "description": "A macro for object construction using {} (curlies).",
+    "license": "MIT",
+    "web": "https://github.com/svenrdz/curlies"
+  },
+  {
+    "name": "littlefs",
+    "url": "https://github.com/Graveflo/nim-littlefs.git",
+    "method": "git",
+    "tags": [
+      "littlefs",
+      "embeded",
+      "filesystem",
+      "fuse"
+    ],
+    "description": "API and bindings for littlefs. Includes a fuse implementation.",
+    "license": "BSD-3-Clause-1",
+    "web": "https://github.com/Graveflo/nim-littlefs"
+  },
+  {
+    "name": "mutf8",
+    "url": "https://github.com/The-Ticking-Clockwork/MUTF-8",
+    "method": "git",
+    "tags": [
+      "encoding",
+      "decoding",
+      "encode",
+      "decode",
+      "chartset",
+      "mutf8",
+      "mutf-8",
+      "utf8",
+      "utf-8",
+      "unicode"
+    ],
+    "description": "An implementation of a Modified UTF-8 encoder and decoder in Nim!",
+    "license": "Apache-2.0",
+    "web": "https://github.com/The-Ticking-Clockwork/MUTF-8",
+    "doc": "https://the-ticking-clockwork.github.io/MUTF-8/"
+  },
+  {
+    "name": "dekao",
+    "url": "https://github.com/ajusa/dekao",
+    "method": "git",
+    "tags": [
+      "html",
+      "template",
+      "htmx"
+    ],
+    "description": "Write HTML templates easily",
+    "license": "MIT",
+    "web": "https://github.com/ajusa/dekao"
+  },
+  {
+    "name": "rssatom",
+    "url": "https://codeberg.org/samsamros/rssatom",
+    "method": "git",
+    "tags": [
+      "rss",
+      "atom",
+      "rss parser",
+      "rss creator",
+      "RFC 4287"
+    ],
+    "description": "rssatom is a package designed to read and create RSS and Atom feeds",
+    "license": "MIT",
+    "web": "https://codeberg.org/samsamros/rssatom"
+  },
+  {
+    "name": "sudoku",
+    "url": "https://github.com/roberto170/sudoku",
+    "method": "git",
+    "tags": [
+      "sudoku"
+    ],
+    "description": "sudoku generator in nim.",
+    "license": "MIT",
+    "web": "https://github.com/roberto170/sudoku"
+  },
+  {
+    "name": "avr_io",
+    "url": "https://github.com/Abathargh/avr_io",
+    "method": "git",
+    "tags": [
+      "avr",
+      "atmega",
+      "microcontroller",
+      "embedded",
+      "firmware"
+    ],
+    "description": "AVR registers, interrupts, progmem and peripheral support in nim!",
+    "license": "BSD-3",
+    "web": "https://github.com/Abathargh/avr_io/wiki"
+  },
+  {
+    "name": "modernnet",
+    "url": "https://github.com/Nimberite-Development/ModernNet",
+    "method": "git",
+    "tags": [
+      "minecraft",
+      "protocol",
+      "mc"
+    ],
+    "description": "ModernNet is a barebones library to interact with the Minecraft Java Edition protocol!",
+    "license": "Apache-2.0",
+    "web": "https://github.com/Nimberite-Development/ModernNet",
+    "doc": "https://nimberite-development.github.io/ModernNet/"
+  },
+  {
+    "name": "worldtree",
+    "url": "https://github.com/keithaustin/worldtree",
+    "method": "git",
+    "tags": [
+      "entity-component-system",
+      "ecs",
+      "dod"
+    ],
+    "description": "A small, lightweight ECS framework for Nim.",
+    "license": "MIT"
+  },
+  {
+    "name": "nulid",
+    "url": "https://github.com/The-Ticking-Clockwork/NULID",
+    "method": "git",
+    "tags": [
+      "library",
+      "id",
+      "ulid",
+      "uuid",
+      "guid"
+    ],
+    "description": "A ULID implementation in Nim!",
+    "license": "CC0",
+    "web": "https://github.com/The-Ticking-Clockwork/NULID",
+    "doc": "https://the-ticking-clockwork.github.io/NULID/"
+  },
+  {
+    "name": "crockfordb32",
+    "url": "https://github.com/The-Ticking-Clockwork/Crockford-Base32-Nim",
+    "method": "git",
+    "tags": [
+      "base",
+      "base32",
+      "crockford",
+      "encode",
+      "decode"
+    ],
+    "description": "A simple implementation of Crockford Base32.",
+    "license": "CC0",
+    "web": "https://github.com/The-Ticking-Clockwork/Crockford-Base32-Nim",
+    "doc": "https://the-ticking-clockwork.github.io/Crockford-Base32-Nim/"
+  },
+  {
+    "name": "rtmidi",
+    "url": "https://github.com/stoneface86/nim-rtmidi/",
+    "method": "git",
+    "tags": [
+      "midi",
+      "cross-platform",
+      "windows",
+      "linux",
+      "macosx",
+      "audio",
+      "wrapper",
+      "library"
+    ],
+    "description": "Nim bindings for RtMidi, a cross-platform realtime MIDI input/output library.",
+    "license": "MIT",
+    "web": "https://github.com/stoneface86/nim-rtmidi/",
+    "docs": "https://stoneface86.github.io/nim-rtmidi/docs/"
+  },
+  {
+    "name": "luigi",
+    "url": "https://github.com/neroist/luigi",
+    "method": "git",
+    "tags": [
+      "ui",
+      "gui",
+      "library",
+      "wrapper",
+      "luigi",
+      "X11",
+      "linux",
+      "windows",
+      "essence",
+      "essenceOS",
+      "cross-platform"
+    ],
+    "description": "Nim bindings for the barebones single-header GUI library for Win32, X11, and Essence: Luigi.",
+    "license": "MIT",
+    "web": "https://github.com/neroist/luigi"
+  },
+  {
+    "name": "sun_moon",
+    "url": "https://github.com/dschaadt/sun_moon",
+    "method": "git",
+    "tags": [
+      "astro",
+      "sun",
+      "moon",
+      "position",
+      "sunrise",
+      "sunset",
+      "moonrise",
+      "moonset"
+    ],
+    "description": "Astro functions for calcuation of sun and moon position, rise and set time as well as civil, nautical and astronomical dawn and dusk as a function of latitude and longitude.",
+    "license": "MIT",
+    "web": "https://github.com/dschaadt/sun_moon"
+  },
+  {
+    "name": "nimip",
+    "url": "https://github.com/hitblast/nimip",
+    "method": "git",
+    "tags": [
+      "nimip",
+      "api-wrapper",
+      "ip-api",
+      "ip-address-lookup",
+      "library",
+      "hybrid"
+    ],
+    "description": "Asynchronously lookup IP addresses with this tiny, hybrid Nim application.",
+    "license": "MIT",
+    "web": "https://github.com/hitblast/nimip"
+  },
+  {
+    "name": "gitman",
+    "url": "https://github.com/nirokay/gitman",
+    "method": "git",
+    "tags": [
+      "git",
+      "manager",
+      "repository-manager"
+    ],
+    "description": "Cross-platform git repository manager.",
+    "license": "GPL-3.0-only",
+    "web": "https://github.com/nirokay/gitman"
+  },
+  {
+    "name": "lorem",
+    "url": "https://github.com/neroist/lorem",
+    "method": "git",
+    "tags": [
+      "lorem-ipsum",
+      "lorem",
+      "ipsum",
+      "text-generator",
+      "text-generation",
+      "random"
+    ],
+    "description": "Nim library that generates \"Lorem ipsum\" text.",
+    "license": "MIT",
+    "web": "https://github.com/neroist/lorem",
+    "doc": "https://neroist.github.io/lorem/lorem.html"
+  },
+  {
+    "name": "nimipdf",
+    "url": "https://github.com/neroist/nimipdf",
+    "method": "git",
+    "tags": [
+      "nimib",
+      "pdf",
+      "wkhtmltopdf",
+      "nimibex"
+    ],
+    "description": "Nim library that adds a PDF backend for nimib",
+    "license": "MIT",
+    "web": "https://neroist.github.io/nimipdf/index.pdf"
+  },
+  {
+    "name": "nimwkhtmltox",
+    "url": "https://github.com/neroist/nim-wkhtmltox",
+    "method": "git",
+    "tags": [
+      "wkhtmltopdf",
+      "wkhtmltoimage",
+      "wkhtmltox",
+      "pdf",
+      "image",
+      "html",
+      "htmltopdf",
+      "htmltoimage",
+      "bindings",
+      "wrapper"
+    ],
+    "description": "Nim bindings for wkhtmltox",
+    "license": "LGPL-3.0-or-later",
+    "web": "https://github.com/neroist/nim-wkhtmltox"
+  },
+  {
+    "name": "youtubescraper",
+    "url": "https://github.com/TaxMachine/youtubescraper",
+    "method": "git",
+    "tags": [
+      "youtube",
+      "scraper",
+      "api",
+      "wrapper",
+      "library"
+    ],
+    "description": "Very fast and lightweight YouTube scraper for Nim.",
+    "license": "WTFPL",
+    "web": "https://github.com/TaxMachine/youtubescraper"
+  },
+  {
+    "name": "mcsrvstat.nim",
+    "url": "https://github.com/hitblast/mcsrvstat.nim",
+    "method": "git",
+    "tags": [
+      "mcsrvstat",
+      "api-wrapper",
+      "minecraft",
+      "minecraft-server-status",
+      "library"
+    ],
+    "description": "A hybrid and asynchronous Nim wrapper for the Minecraft Server Status API.",
+    "license": "MIT",
+    "web": "https://github.com/hitblast/mcsrvstat.nim"
+  },
+  {
+    "name": "nimitheme",
+    "url": "https://github.com/neroist/nimitheme",
+    "method": "git",
+    "tags": [
+      "nimib",
+      "theme",
+      "addon",
+      "style",
+      "library",
+      "html",
+      "nimib-extension"
+    ],
+    "description": "make nimib look beautiful with nimitheme",
+    "license": "MIT",
+    "web": "https://neroist.github.io/nimitheme/index.html"
+  },
+  {
+    "name": "nimpretty_t",
+    "url": "https://github.com/tobealive/nimpretty_t",
+    "method": "git",
+    "tags": [
+      "nimpretty",
+      "code",
+      "formatter",
+      "formatting",
+      "autoformat",
+      "cli",
+      "terminal",
+      "command-line",
+      "utility"
+    ],
+    "description": "Use nimpretty with tab indentation.",
+    "license": "MIT",
+    "web": "https://github.com/tobealive/nimpretty_t"
+  },
+  {
+    "name": "webui",
+    "url": "https://github.com/neroist/webui",
+    "method": "git",
+    "tags": [
+      "webui",
+      "web",
+      "gui",
+      "ui",
+      "wrapper",
+      "bindings",
+      "cross-platform",
+      "browser",
+      "chrome",
+      "firefox",
+      "safari",
+      "webapp",
+      "library"
+    ],
+    "description": "Nim wrapper for WebUI",
+    "license": "MIT",
+    "web": "https://github.com/neroist/webui#readme",
+    "docs": "https://neroist.github.io/webui"
+  },
+  {
+    "name": "unibs",
+    "url": "https://github.com/choltreppe/unibs",
+    "method": "git",
+    "tags": [
+      "serialization",
+      "serialize",
+      "deserialize",
+      "marshal",
+      "unmarshal",
+      "binary serialization"
+    ],
+    "description": "binary de-/serialization that works on js, c and VM (compiletime)",
+    "license": "MIT"
+  },
+  {
+    "name": "polyrpc",
+    "url": "https://github.com/choltreppe/polyrpc",
+    "method": "git",
+    "tags": [
+      "rpc",
+      "remote procedure call"
+    ],
+    "description": "A system for generating remote-procedure-calls for any pair of server and client",
+    "license": "MIT"
+  },
+  {
+    "name": "arrayutils",
+    "url": "https://github.com/choltreppe/arrayutils",
+    "method": "git",
+    "tags": [
+      "array"
+    ],
+    "description": "map/mapIt for arrays",
+    "license": "MIT"
+  },
+  {
+    "name": "objaccess",
+    "url": "https://github.com/choltreppe/objaccess",
+    "method": "git",
+    "tags": [
+      "getter",
+      "setter",
+      "setable",
+      "getable",
+      "object"
+    ],
+    "description": "generate setters and getters for object types",
+    "license": "MIT"
+  },
+  {
+    "name": "unroll",
+    "url": "https://github.com/choltreppe/unroll",
+    "method": "git",
+    "tags": [
+      "unroll",
+      "compiletime",
+      "map"
+    ],
+    "description": "unroll for-loops (and map into seq/array) at compile-time in nim",
+    "license": "MIT"
+  },
+  {
     "name": "geolocation",
     "url": "https://github.com/HazeCS/geolocation",
     "method": "git",
@@ -154,7 +791,7 @@
     "description": "Open Any Url/File in the default App / WebBrowser.",
     "license": "MIT",
     "web": "https://github.com/foxoman/openurl",
-    "doc": "http://nimopenurl.surge.sh/openurl.html"
+    "doc": "https://nimopenurl.surge.sh/openurl.html"
   },
   {
     "name": "tinydialogs",
@@ -286,7 +923,7 @@
     ],
     "description": "Nim0 is a toy one-pass compiler for a limited subset of the Nim language, targetting a 32-bit RISC CPU. Compiled Nim0 programs can be executed in the RISC emulator. All this in 5 heavily-documented sources, totalling less than 4k LOC. It is a port of Niklaus Wirth's Oberon-0 compiler as described in his book Compiler construction (included in the package), cross-referenced in the sources, that you can follow while reading the book.",
     "license": "MIT",
-    "web": "https://pmetras.gitlab.io/nim0",
+    "web": "https://pmetras.gitlab.io/nim0/",
     "doc": "https://gitlab.com/pmetras/nim0"
   },
   {
@@ -427,8 +1064,8 @@
     ],
     "description": "Simple, modern and portable interpreted programming language for efficient scripting",
     "license": "MIT",
-    "web": "http://arturo-lang.io/",
-    "doc": "http://arturo-lang.io/"
+    "web": "https://arturo-lang.io/",
+    "doc": "https://arturo-lang.io/"
   },
   {
     "name": "nimchromepath",
@@ -568,18 +1205,51 @@
   },
   {
     "name": "nio",
-    "url": "https://github.com/KayraG/nio",
+    "url": "https://github.com/c-blake/nio",
     "method": "git",
     "tags": [
-      "server",
-      "framework",
-      "express",
-      "http",
+      "mmap",
+      "memory-mapping",
+      "binary data",
+      "data compiling",
+      "data debugging",
+      "serialize",
+      "serialization",
+      "deserialize",
+      "deserialization",
+      "marshal",
+      "unmarshal",
+      "marshalling",
+      "dataframe",
+      "file arrays",
+      "file format",
+      "file extension convention",
+      "hdf5",
+      "ndarray",
+      "multidimensional-array",
+      "string interning",
+      "open architecture",
+      "column-oriented",
+      "row-oriented",
+      "database",
+      "timeseries",
+      "headerless teafiles",
+      "DBMS",
+      "tables",
+      "SQL",
+      "CSV",
+      "TSV",
+      "extract-transform-load",
+      "ETL",
+      "magic number-keyed decompressor",
+      "command-line",
+      "data engineering",
+      "pipelines",
       "library"
     ],
-    "description": "A Mini Server Framework for Nim language",
+    "description": "Low Overhead Numerical/Native IO library & tools",
     "license": "MIT",
-    "web": "https://github.com/KayraG/nio"
+    "web": "https://github.com/c-blake/nio"
   },
   {
     "name": "decisiontree",
@@ -767,7 +1437,7 @@
     ],
     "description": "Additional functions for sequences that are not present in sequtils",
     "license": "MIT",
-    "web": "http://htmlpreview.github.io/?https://github.com/Michedev/sequtils2/blob/master/sequtils2.html"
+    "web": "https://htmlpreview.github.io/?https://github.com/Michedev/sequtils2/blob/master/sequtils2.html"
   },
   {
     "name": "github_api",
@@ -1099,7 +1769,8 @@
     "method": "git",
     "tags": [
       "library",
-      "audio"
+      "audio",
+      "deleted"
     ],
     "description": "A high-level libao wrapper",
     "license": "MIT",
@@ -1126,7 +1797,8 @@
       "library",
       "opengl",
       "math",
-      "game"
+      "game",
+      "deleted"
     ],
     "description": "OpenGL math library",
     "license": "CC0",
@@ -1555,7 +2227,8 @@
       "audio",
       "sound",
       "metadata",
-      "media"
+      "media",
+      "deleted"
     ],
     "description": "Binding to libvorbis",
     "license": "CC0"
@@ -1575,7 +2248,8 @@
       "audio",
       "sound",
       "media",
-      "io"
+      "io",
+      "deleted"
     ],
     "description": "Binding to portaudio",
     "license": "CC0"
@@ -1608,7 +2282,8 @@
       "cryptography",
       "hash",
       "password",
-      "security"
+      "security",
+      "deleted"
     ],
     "description": "Binding and utilities for scrypt",
     "license": "CC0"
@@ -2122,6 +2797,21 @@
     "description": "Small library to generate procedures with a type derivation system",
     "license": "MIT",
     "web": "https://github.com/PMunch/deriveables"
+  },
+  {
+    "name": "mapm",
+    "url": "https://github.com/PMunch/mapm-nim",
+    "method": "git",
+    "tags": [
+      "library",
+      "decimal",
+      "arithmetic",
+      "precision",
+      "wrapper"
+    ],
+    "description": "Nim wrapper for MAPM, an arbitrary maths library with support for trig functions",
+    "license": "MIT+Freeware",
+    "web": "https://github.com/PMunch/mapm-nim"
   },
   {
     "name": "sdl2_nim",
@@ -2638,7 +3328,8 @@
     "method": "git",
     "tags": [
       "csv",
-      "json"
+      "json",
+      "deleted"
     ],
     "description": "Convert CSV files to JSON",
     "license": "MIT",
@@ -3223,7 +3914,7 @@
   },
   {
     "name": "RingBuffer",
-    "url": "git@github.com:megawac/RingBuffer.nim.git",
+    "url": "https://github.com/megawac/RingBuffer.nim.git",
     "method": "git",
     "tags": [
       "sequence",
@@ -4617,7 +5308,8 @@
     "tags": [
       "event",
       "future",
-      "asyncdispatch"
+      "asyncdispatch",
+      "deleted"
     ],
     "description": "Asynchronous event loop for progaming with MVC",
     "license": "MIT",
@@ -5292,13 +5984,29 @@
     "method": "git",
     "tags": [
       "library",
+      "cli",
       "command-line",
+      "command line",
+      "commandline",
       "arguments",
       "switches",
+      "options",
+      "argparse",
+      "optparse",
+      "parser",
       "parsing",
-      "options"
+      "formatter",
+      "formatting",
+      "template engines",
+      "highlighting",
+      "terminal",
+      "color",
+      "completion",
+      "help generation",
+      "abbreviation",
+      "multiprocessing"
     ],
-    "description": "Infer & generate command-line interace/option/argument parsers",
+    "description": "Infer & generate command-line interface/option/argument parsers",
     "license": "MIT",
     "web": "https://github.com/c-blake/cligen"
   },
@@ -5331,7 +6039,7 @@
   },
   {
     "name": "teafiles",
-    "url": "git@github.com:andreaferretti/nim-teafiles.git",
+    "url": "https://github.com/andreaferretti/nim-teafiles.git",
     "method": "git",
     "tags": [
       "teafiles",
@@ -5344,7 +6052,7 @@
   },
   {
     "name": "emmy",
-    "url": "git@github.com:andreaferretti/emmy.git",
+    "url": "https://github.com/andreaferretti/emmy.git",
     "method": "git",
     "tags": [
       "algebra",
@@ -5709,7 +6417,7 @@
     ],
     "description": "YAML 1.2 implementation for Nim",
     "license": "MIT",
-    "web": "http://flyx.github.io/NimYAML/"
+    "web": "https://flyx.github.io/NimYAML/"
   },
   {
     "name": "nimyaml",
@@ -5894,7 +6602,7 @@
     ],
     "description": "Additions to the Nim's standard library, like boost for C++",
     "license": "MIT",
-    "web": "http://vegansk.github.io/nimboost/"
+    "web": "https://vegansk.github.io/nimboost/"
   },
   {
     "name": "asyncdocker",
@@ -5906,7 +6614,7 @@
     ],
     "description": "Asynchronous docker client written by Nim-lang",
     "license": "MIT",
-    "web": "http://tulayang.github.io/asyncdocker.html"
+    "web": "https://tulayang.github.io/asyncdocker.html"
   },
   {
     "name": "python3",
@@ -6289,7 +6997,7 @@
   },
   {
     "name": "qrcode",
-    "description": "module for creating and reading QR codes using http://goqr.me/",
+    "description": "module for creating and reading QR codes using https://goqr.me/",
     "tags": [
       "qr",
       "qrcode",
@@ -6552,11 +7260,12 @@
     "method": "hg",
     "license": "MIT",
     "description": "Library for reading GEMF map tile stores",
-    "web": "http://www.cgtk.co.uk/gemf",
+    "web": "https://www.cgtk.co.uk/gemf",
     "tags": [
       "maps",
       "gemf",
-      "parser"
+      "parser",
+      "deleted"
     ]
   },
   {
@@ -6645,7 +7354,7 @@
     ],
     "description": "OAuth library for nim",
     "license": "Apache License 2.0",
-    "web": "http://cordea.github.io/oauth"
+    "web": "https://cordea.github.io/oauth"
   },
   {
     "name": "jsbind",
@@ -6719,7 +7428,7 @@
     ],
     "description": "Experimental wrapper to webgl for Nim",
     "license": "MIT",
-    "web": "http://stisa.space/webgl/"
+    "web": "https://stisa.space/webgl/"
   },
   {
     "name": "fileinput",
@@ -6833,7 +7542,8 @@
     "method": "git",
     "tags": [
       "jwt",
-      "libjwt"
+      "libjwt",
+      "deleted"
     ],
     "description": "Bindings for libjwt",
     "license": "LGPLv2.1",
@@ -6848,7 +7558,8 @@
       "bTree",
       "HB+-Trie",
       "db",
-      "forestdb"
+      "forestdb",
+      "deleted"
     ],
     "description": "ForestDB is fast key-value storage engine that is based on a Hierarchical B+-Tree based Trie, or HB+-Trie.",
     "license": "Apache License 2.0",
@@ -6926,6 +7637,36 @@
     "description": "A hacky helper lib for authoring Nim packages with package-level visiblity",
     "license": "MIT",
     "web": "https://github.com/zah/nim-package-visible-types"
+  },
+  {
+    "name": "waku",
+    "url": "https://github.com/waku-org/nwaku",
+    "method": "git",
+    "tags": [
+      "peet-to-peer",
+      "communication",
+      "messaging",
+      "networking",
+      "cryptography",
+      "protocols"
+    ],
+    "description": "Implementation of the Waku protocol",
+    "license": "Apache License 2.0",
+    "web": "https://github.com/waku-org/nwaku"
+  },
+  {
+    "name": "dnsdisc",
+    "url": "https://github.com/status-im/nim-dnsdisc",
+    "method": "git",
+    "tags": [
+      "protocols",
+      "discovery",
+      "ethereum",
+      "dns"
+    ],
+    "description": "Nim discovery library supporting EIP-1459",
+    "license": "Apache License 2.0",
+    "web": "https://github.com/status-im/nim-dnsdisc"
   },
   {
     "name": "drchaos",
@@ -7576,7 +8317,8 @@
     "method": "git",
     "tags": [
       "storage",
-      "io"
+      "io",
+      "deleted"
     ],
     "description": "Efficient object storage system",
     "license": "MIT",
@@ -7856,7 +8598,8 @@
       "erasure",
       "hash",
       "crypto",
-      "compression"
+      "compression",
+      "deleted"
     ],
     "description": "Binding for Intel Storage Acceleration library",
     "license": "Apache License 2.0",
@@ -7884,7 +8627,8 @@
     "method": "git",
     "tags": [
       "library",
-      "linux"
+      "linux",
+      "deleted"
     ],
     "description": "Color and utilities library for linux terminal.",
     "license": "MIT",
@@ -7898,11 +8642,12 @@
       "library",
       "dpdk",
       "packet",
-      "processing"
+      "processing",
+      "deleted"
     ],
     "description": "Library for fast packet processing",
     "license": "Apache License 2.0",
-    "web": "http://dpdk.org/"
+    "web": "https://dpdk.org/"
   },
   {
     "name": "libserialport",
@@ -7931,7 +8676,8 @@
       "SSD",
       "NVME",
       "io",
-      "storage"
+      "storage",
+      "deleted"
     ],
     "description": "The Storage Performance Development Kit(SPDK) provides a set of tools and libraries for writing high performance, scalable, user-mode storage applications.",
     "license": "MIT",
@@ -8017,7 +8763,7 @@
     ],
     "description": "Simple linear algebra for nim. Js too.",
     "license": "MIT",
-    "web": "http://stisa.space/snail/"
+    "web": "https://stisa.space/snail/"
   },
   {
     "name": "jswebsockets",
@@ -8031,7 +8777,7 @@
     ],
     "description": "Websockets wrapper for nim js backend.",
     "license": "MIT",
-    "web": "http://stisa.space/jswebsockets/"
+    "web": "https://stisa.space/jswebsockets/"
   },
   {
     "name": "morelogging",
@@ -8060,7 +8806,7 @@
     ],
     "description": "AJAX wrapper for nim js backend.",
     "license": "MIT",
-    "web": "http://stisa.space/ajax/"
+    "web": "https://stisa.space/ajax/"
   },
   {
     "name": "recaptcha",
@@ -8198,7 +8944,7 @@
     ],
     "description": "Library for async programming and communication. This Library uses a future/promise, non-blocking I/O model based on libuv.",
     "license": "MIT",
-    "web": "http://tulayang.github.io/node/"
+    "web": "https://tulayang.github.io/node/"
   },
   {
     "name": "tempdir",
@@ -9077,7 +9823,8 @@
     "method": "git",
     "tags": [
       "optimization",
-      "tabu"
+      "tabu",
+      "deleted"
     ],
     "description": "An implementation of the tabu search heuristic in Nim.",
     "license": "BSD-3",
@@ -9411,7 +10158,8 @@
       "pdcurses",
       "curses",
       "console",
-      "gui"
+      "gui",
+      "deleted"
     ],
     "description": "Nim wrapper for PDCurses",
     "license": "MIT",
@@ -9425,7 +10173,8 @@
       "libuv",
       "wrapper",
       "node",
-      "networking"
+      "networking",
+      "deleted"
     ],
     "description": "libuv bindings for Nim",
     "license": "MIT",
@@ -9437,7 +10186,8 @@
     "method": "git",
     "tags": [
       "roman",
-      "numerals"
+      "numerals",
+      "deleted"
     ],
     "description": "Conversion between integers and Roman numerals",
     "license": "MIT",
@@ -9560,7 +10310,8 @@
       "table",
       "string",
       "key",
-      "value"
+      "value",
+      "deleted"
     ],
     "description": "Efficient hash table that is a key-value mapping (removed from stdlib)",
     "license": "MIT",
@@ -9873,7 +10624,7 @@
     ],
     "description": "Additional control structures",
     "license": "MIT",
-    "web": "http://htmlpreview.github.io/?https://github.com/TakeYourFreedom/Additional-Control-Structures-for-Nim/blob/master/controlStructures.html"
+    "web": "https://htmlpreview.github.io/?https://github.com/TakeYourFreedom/Additional-Control-Structures-for-Nim/blob/master/controlStructures.html"
   },
   {
     "name": "notetxt",
@@ -11386,7 +12137,8 @@
     "tags": [
       "bignumber",
       "multiprecision",
-      "imath"
+      "imath",
+      "deleted"
     ],
     "description": "A Nim Wrapper of the imath BigNumber library.",
     "license": "MIT"
@@ -11732,6 +12484,18 @@
     "web": "https://github.com/treeform/print"
   },
   {
+    "name": "pretty",
+    "url": "https://github.com/treeform/pretty",
+    "method": "git",
+    "tags": [
+      "pretty",
+      "print"
+    ],
+    "description": "A pretty printer for Nim types",
+    "license": "MIT",
+    "web": "https://github.com/treeform/pretty"
+  },
+  {
     "name": "vmath",
     "url": "https://github.com/treeform/vmath",
     "method": "git",
@@ -11993,6 +12757,51 @@
     "web": "https://github.com/treeform/windy"
   },
   {
+    "name": "guardmons",
+    "url": "https://github.com/treeform/guardmons",
+    "method": "git",
+    "tags": [
+      "daemon",
+      "ssh",
+      "copy",
+      "shell",
+      "kill",
+      "top",
+      "watch"
+    ],
+    "description": "Cross-platform collection of OS Utilities",
+    "license": "MIT",
+    "web": "https://github.com/treeform/guardmons"
+  },
+  {
+    "name": "debby",
+    "url": "https://github.com/treeform/debby",
+    "method": "git",
+    "tags": [
+      "db",
+      "sqlite",
+      "mysql",
+      "postgresql",
+      "orm"
+    ],
+    "description": "Database ORM layer",
+    "license": "MIT",
+    "web": "https://github.com/treeform/debby"
+  },
+  {
+    "name": "taggy",
+    "url": "https://github.com/treeform/taggy",
+    "method": "git",
+    "tags": [
+      "html",
+      "xml",
+      "css"
+    ],
+    "description": "Everything to do with HTML and XML",
+    "license": "MIT",
+    "web": "https://github.com/treeform/taggy"
+  },
+  {
     "name": "xdo",
     "url": "https://github.com/juancarlospaco/nim-xdo",
     "method": "git",
@@ -12232,7 +13041,8 @@
     "method": "git",
     "tags": [
       "events",
-      "emitter"
+      "emitter",
+      "deleted"
     ],
     "description": "Event Based Programming for Nim.",
     "license": "MIT"
@@ -12635,7 +13445,7 @@
       "xml",
       "dom"
     ],
-    "description": "Implementation of XML DOM Level 2 Core specification (http://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html)",
+    "description": "Implementation of XML DOM Level 2 Core specification (https://www.w3.org/TR/2000/REC-DOM-Level-2-Core-20001113/core.html)",
     "license": "MIT",
     "web": "https://github.com/nim-lang/graveyard/tree/master/xmldom"
   },
@@ -12671,17 +13481,24 @@
   },
   {
     "name": "result",
-    "url": "https://github.com/arnetheduck/nim-result",
+    "alias": "results"
+  },
+  {
+    "name": "results",
+    "url": "https://github.com/arnetheduck/nim-results",
     "method": "git",
     "tags": [
       "library",
       "result",
+      "results",
       "errors",
-      "functional"
+      "functional",
+      "option",
+      "options"
     ],
-    "description": "Friendly, exception-free value-or-error returns, similar to Option[T]",
+    "description": "Friendly value-or-error type",
     "license": "MIT",
-    "web": "https://github.com/arnetheduck/nim-result"
+    "web": "https://github.com/arnetheduck/nim-results"
   },
   {
     "name": "asciigraph",
@@ -12972,17 +13789,18 @@
   },
   {
     "name": "nimetry",
-    "url": "https://github.com/ijneb/nimetry",
+    "url": "https://github.com/refaqtor/nimetry",
     "method": "git",
     "tags": [
       "plot",
       "graph",
-      "chart"
+      "chart",
+      "deleted"
     ],
     "description": "Plotting module in pure nim",
     "license": "CC0",
-    "web": "https://github.com/ijneb/nimetry",
-    "doc": "https://ijneb.github.io/nimetry"
+    "web": "https://github.com/refaqtor/nimetry",
+    "doc": "https://benjif.github.io/nimetry"
   },
   {
     "name": "nim-snappy",
@@ -13073,17 +13891,18 @@
   },
   {
     "name": "algebra",
-    "url": "https://github.com/ijneb/nim-algebra",
+    "url": "https://github.com/refaqtor/nim-algebra",
     "method": "git",
     "tags": [
       "algebra",
       "parse",
       "evaluate",
-      "mathematics"
+      "mathematics",
+      "deleted"
     ],
     "description": "Algebraic expression parser and evaluator",
     "license": "CC0",
-    "web": "https://github.com/ijneb/nim-algebra"
+    "web": "https://github.com/refaqtor/nim-algebra"
   },
   {
     "name": "biblioteca_guarrilla",
@@ -13864,7 +14683,8 @@
       "tags",
       "http",
       "generating",
-      "url"
+      "url",
+      "deleted"
     ],
     "description": "A little lib for generating URL with args.",
     "license": "MIT",
@@ -14176,7 +14996,8 @@
       "nmap",
       "networking",
       "network mapper",
-      "blmvxer"
+      "blmvxer",
+      "deleted"
     ],
     "description": "A pure implementaion of nmap for nim.",
     "license": "MIT",
@@ -14279,7 +15100,7 @@
       "fnv-0",
       "ryukoposting"
     ],
-    "description": "FNV-1 and FNV-1a non-cryptographic hash functions (documentation hosted at: http://ryuk.ooo/nimdocs/fnv/fnv.html)",
+    "description": "FNV-1 and FNV-1a non-cryptographic hash functions (documentation hosted at: https://ryuk.ooo/nimdocs/fnv/fnv.html)",
     "license": "Apache-2.0",
     "web": "https://gitlab.com/ryukoposting/nim-fnv"
   },
@@ -15083,6 +15904,63 @@
     "web": "https://github.com/alaviss/kmod"
   },
   {
+    "name": "nostr",
+    "url": "https://github.com/theAkito/nim-nostr",
+    "method": "git",
+    "tags": [
+      "akito",
+      "nostr",
+      "nostrich",
+      "relay",
+      "api",
+      "node",
+      "cluster",
+      "note",
+      "notes",
+      "amethyst",
+      "social",
+      "protocol",
+      "nip",
+      "nipple",
+      "security",
+      "pgp",
+      "gpg",
+      "bitcoin",
+      "twitter",
+      "mastodon",
+      "bluesky",
+      "blog",
+      "blogging",
+      "microblog",
+      "microblogging"
+    ],
+    "description": "NOSTR Protocol implementation.",
+    "license": "GPL-3.0-or-later"
+  },
+  {
+    "name": "zoominvitr",
+    "url": "https://github.com/theAkito/zoominvitr",
+    "method": "git",
+    "tags": [
+      "akito",
+      "zoom",
+      "meeting",
+      "conference",
+      "video",
+      "schedule",
+      "invite",
+      "invitation",
+      "social",
+      "jitsi",
+      "bigbluebutton",
+      "bluejeans",
+      "api",
+      "docker"
+    ],
+    "description": "Automatically send invitations regarding planned Zoom meetings.",
+    "license": "AGPL-3.0-or-later"
+  },
+  {
     "name": "couchdb",
     "url": "https://github.com/theAkito/nim-couchdb",
     "method": "git",
@@ -15346,6 +16224,23 @@
     "description": "A curses inspired simple cross-platform console library for Nim",
     "license": "WTFPL",
     "web": "https://github.com/johnnovak/illwill"
+  },
+  {
+    "name": "koi",
+    "url": "https://github.com/johnnovak/koi",
+    "method": "git",
+    "tags": [
+      "ui",
+      "library",
+      "gui",
+      "imgui",
+      "opengl",
+      "windowing",
+      "glfw"
+    ],
+    "description": "Immediate mode UI for Nim",
+    "license": "WTFPL",
+    "web": "https://github.com/johnnovak/koi"
   },
   {
     "name": "shared",
@@ -15625,7 +16520,8 @@
     "tags": [
       "redneck",
       "string",
-      "slang"
+      "slang",
+      "deleted"
     ],
     "description": "Redneck Translator for Y'all",
     "license": "MIT",
@@ -15638,7 +16534,8 @@
     "tags": [
       "sweet_anita",
       "tourette",
-      "string"
+      "string",
+      "deleted"
     ],
     "description": "Sweet_Anita Translator, help spread awareness about Tourettes",
     "license": "MIT",
@@ -16048,7 +16945,8 @@
     "method": "git",
     "tags": [
       "html",
-      "browser"
+      "browser",
+      "deleted"
     ],
     "description": "View the offline or online html page in browser",
     "license": "MIT",
@@ -16495,6 +17393,20 @@
     "description": "Copy-On-Write string implementation",
     "license": "MIT",
     "web": "https://github.com/planetis-m/cowstrings"
+  },
+  {
+    "name": "jsonpak",
+    "url": "https://github.com/planetis-m/jsonpak",
+    "method": "git",
+    "tags": [
+      "json",
+      "json-patch",
+      "json-pointer",
+      "data-structure"
+    ],
+    "description": "Packed ASTs for compact and efficient JSON representation, with JSON Pointer, JSON Patch support.",
+    "license": "MIT",
+    "web": "https://github.com/planetis-m/jsonpak"
   },
   {
     "name": "golden",
@@ -17369,18 +18281,6 @@
     "web": "https://github.com/vycb/gdbmc.nim"
   },
   {
-    "name": "diff",
-    "url": "https://github.com/mark-summerfield/diff",
-    "method": "git",
-    "tags": [
-      "diff",
-      "sequencematcher"
-    ],
-    "description": "Library for finding the differences between two sequences",
-    "license": "Apache-2.0",
-    "web": "https://github.com/mark-summerfield/diff"
-  },
-  {
     "name": "diffoutput",
     "url": "https://github.com/JohnAD/diffoutput",
     "method": "git",
@@ -17551,7 +18451,8 @@
     "tags": [
       "hexdigest",
       "hexadecimal",
-      "binary"
+      "binary",
+      "deleted"
     ],
     "description": "Binary <-> text conversion.",
     "license": "MPL",
@@ -17564,7 +18465,8 @@
     "tags": [
       "blake2b",
       "blake2s",
-      "spookyhash"
+      "spookyhash",
+      "deleted"
     ],
     "description": "Collection of hash algorithms ported to Nim",
     "license": "CC0",
@@ -17666,6 +18568,10 @@
   },
   {
     "name": "socks",
+    "alias": "socks5"
+  },
+  {
+    "name": "socks5",
     "url": "https://github.com/FedericoCeratto/nim-socks5",
     "method": "git",
     "tags": [
@@ -18047,6 +18953,24 @@
     "web": "https://github.com/nitely/nregex"
   },
   {
+    "name": "hyperx",
+    "url": "https://github.com/nitely/nim-hyperx",
+    "method": "git",
+    "tags": [
+      "http",
+      "http2",
+      "web",
+      "web-server",
+      "web-client",
+      "server",
+      "client",
+      "client-server"
+    ],
+    "description": "Pure Nim http2 client and server",
+    "license": "MIT",
+    "web": "https://github.com/nitely/nim-hyperx"
+  },
+  {
     "name": "delight",
     "url": "https://github.com/liquid600pgm/delight",
     "method": "git",
@@ -18350,7 +19274,8 @@
       "gui",
       "async",
       "framework",
-      "sdl2"
+      "sdl2",
+      "deleted"
     ],
     "description": "The Nim GUI asynchronous framework based on SDL2.",
     "license": "AGPLv3",
@@ -18768,11 +19693,15 @@
       "dictionary",
       "hash tables",
       "data structures",
+      "algorithms",
       "hash",
+      "hashes",
       "compact",
-      "Fenwick tree",
+      "Fenwick Tree",
       "BIST",
       "binary trees",
+      "sketch",
+      "sketches",
       "B-Tree"
     ],
     "description": "An Adaptive Index Library For Nim",
@@ -18801,7 +19730,8 @@
       "library",
       "math",
       "matrix",
-      "vector"
+      "vector",
+      "deleted"
     ],
     "description": "A graphics math library",
     "license": "MIT",
@@ -18889,6 +19819,40 @@
     "description": "A tiny immediate-mode UI library",
     "license": "MIT",
     "web": "https://github.com/angluca/mui"
+  },
+  {
+    "name": "tigr",
+    "url": "https://github.com/angluca/tigr-nim",
+    "method": "git",
+    "tags": [
+      "opengl",
+      "2d",
+      "game",
+      "ui",
+      "image",
+      "png",
+      "graphics",
+      "cross-platform"
+    ],
+    "description": "TIGR is a tiny cross-platform graphics library",
+    "license": "MIT",
+    "web": "https://github.com/angluca/tigr-nim"
+  },
+  {
+    "name": "sokol",
+    "url": "https://github.com/floooh/sokol-nim",
+    "method": "git",
+    "tags": [
+      "opengl",
+      "3d",
+      "game",
+      "imgui",
+      "graphics",
+      "cross-platform"
+    ],
+    "description": "sokol is a minimal cross-platform standalone graphics library",
+    "license": "MIT",
+    "web": "https://github.com/floooh/sokol-nim"
   },
   {
     "name": "nimatic",
@@ -19086,7 +20050,7 @@
     "description": "Concurrent hash table",
     "license": "MIT",
     "web": "https://github.com/olliNiinivaara/StashTable",
-    "doc": "http://htmlpreview.github.io/?https://github.com/olliNiinivaara/StashTable/blob/master/src/stashtable.html"
+    "doc": "https://htmlpreview.github.io/?https://github.com/olliNiinivaara/StashTable/blob/master/src/stashtable.html"
   },
   {
     "name": "dimscord",
@@ -19268,7 +20232,8 @@
     "tags": [
       "tool",
       "binary",
-      "dotfiles"
+      "dotfiles",
+      "deleted"
     ],
     "description": "dotfiles provisioning tool",
     "license": "MIT",
@@ -19662,7 +20627,8 @@
     "tags": [
       "comparison",
       "3-way comparison",
-      "three-way comparison"
+      "three-way comparison",
+      "deleted"
     ],
     "description": "Functionality for compare two values",
     "license": "MIT",
@@ -19717,7 +20683,8 @@
       "gradient",
       "gradients",
       "color",
-      "colors"
+      "colors",
+      "deleted"
     ],
     "description": "Color gradients generation",
     "license": "MIT",
@@ -19754,6 +20721,7 @@
     "url": "https://github.com/dizzyliam/inumon",
     "method": "git",
     "tags": [
+      "abandoned",
       "image",
       "images",
       "png",
@@ -20349,7 +21317,8 @@
     "tags": [
       "base64",
       "cui",
-      "tool"
+      "tool",
+      "deleted"
     ],
     "description": "base64 cui",
     "license": "MIT",
@@ -20402,7 +21371,8 @@
       "library",
       "time",
       "format",
-      "ms"
+      "ms",
+      "deleted"
     ],
     "description": "Convert various time formats to milliseconds",
     "license": "MIT",
@@ -20480,7 +21450,7 @@
   },
   {
     "name": "desim",
-    "url": "http://github.com/jayvanderwall/desim",
+    "url": "https://github.com/jayvanderwall/desim",
     "method": "git",
     "tags": [
       "library",
@@ -20492,7 +21462,7 @@
     ],
     "description": "A lightweight discrete event simulator",
     "license": "MIT",
-    "web": "http://github.com/jayvanderwall/desim"
+    "web": "https://github.com/jayvanderwall/desim"
   },
   {
     "name": "NimpleHTTPServer",
@@ -20631,7 +21601,7 @@
   },
   {
     "name": "psutilim",
-    "url": "https://github.com/Techno-Fox/psutilim",
+    "url": "https://github.com/Techno-Fox/psutil-nim",
     "method": "git",
     "tags": [
       "psutilim",
@@ -20641,8 +21611,8 @@
     ],
     "description": "Updated psutil module from https://github.com/johnscillieri/psutil-nim",
     "license": "MIT",
-    "web": "https://github.com/Techno-Fox/psutilim",
-    "doc": "https://github.com/Techno-Fox/psutilim"
+    "web": "https://github.com/Techno-Fox/psutil-nim",
+    "doc": "https://github.com/Techno-Fox/psutil-nim"
   },
   {
     "name": "ioselectors",
@@ -21041,7 +22011,8 @@
     "tags": [
       "blackvas",
       "web",
-      "cli"
+      "cli",
+      "deleted"
     ],
     "description": "The Blackvas CLI",
     "license": "MIT",
@@ -21165,8 +22136,8 @@
     "web": "https://github.com/Niminem/Neel"
   },
   {
-    "name": "marggers",
-    "url": "https://github.com/metagn/marggers",
+    "name": "margrave",
+    "url": "https://github.com/metagn/margrave",
     "method": "git",
     "tags": [
       "markdown",
@@ -21176,8 +22147,12 @@
     ],
     "description": "dialect of Markdown in pure Nim with focus on HTML output",
     "license": "MIT",
-    "web": "https://github.com/metagn/marggers",
-    "doc": "https://metagn.github.io/marggers/marggers.html"
+    "web": "https://github.com/metagn/margrave",
+    "doc": "https://metagn.github.io/margrave/docs/margrave.html"
+  },
+  {
+    "name": "marggers",
+    "alias": "margrave"
   },
   {
     "name": "dual",
@@ -22326,7 +23301,8 @@
     "tags": [
       "array",
       "arrays",
-      "hat"
+      "hat",
+      "deleted"
     ],
     "description": "Various kinds of hashed array trees.",
     "license": "MIT",
@@ -22612,19 +23588,6 @@
     "description": "xcb bindings",
     "license": "MIT",
     "web": "https://github.com/SolitudeSF/xcb"
-  },
-  {
-    "name": "nimjl",
-    "url": "https://github.com/Clonkk/nimjl",
-    "method": "git",
-    "tags": [
-      "Nim",
-      "Julia",
-      "Bridge"
-    ],
-    "description": "Nim Julia bridge",
-    "license": "MIT",
-    "web": "https://github.com/Clonkk/nimjl"
   },
   {
     "name": "nimflux",
@@ -23607,7 +24570,7 @@
   },
   {
     "name": "preserves",
-    "url": "https://git.sr.ht/~ehmry/preserves-nim",
+    "url": "https://git.syndicate-lang.org/ehmry/preserves-nim",
     "method": "git",
     "tags": [
       "binary",
@@ -23709,7 +24672,7 @@
   },
   {
     "name": "formulas",
-    "url": "https://git.ozzuu.com/thisago/formulas",
+    "url": "https://github.com/thisago/formulas",
     "method": "git",
     "tags": [
       "math",
@@ -23717,7 +24680,7 @@
     ],
     "description": "Mathematical formulas",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/formulas"
+    "web": "https://github.com/thisago/formulas"
   },
   {
     "name": "parsesql",
@@ -23747,7 +24710,7 @@
   },
   {
     "name": "whois",
-    "url": "https://git.ozzuu.com/thisago/whois",
+    "url": "https://github.com/thisago/whois",
     "method": "git",
     "tags": [
       "whois",
@@ -23755,7 +24718,7 @@
     ],
     "description": "A simple and free whois client",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/whois"
+    "web": "https://github.com/thisago/whois"
   },
   {
     "name": "statistical_tests",
@@ -23829,7 +24792,7 @@
   },
   {
     "name": "syndicate",
-    "url": "https://git.sr.ht/~ehmry/syndicate-nim",
+    "url": "https://git.syndicate-lang.org/ehmry/syndicate-nim",
     "method": "git",
     "tags": [
       "actors",
@@ -24068,11 +25031,11 @@
     ],
     "description": "Plot and visualize data",
     "license": "Proprietary",
-    "web": "http://pl0t.com"
+    "web": "https://pl0t.com"
   },
   {
     "name": "gm_api",
-    "url": "https://git.ozzuu.com/thisago/gm_api",
+    "url": "https://github.com/thisago/gm_api",
     "method": "git",
     "tags": [
       "greasemonkey",
@@ -24082,7 +25045,7 @@
     ],
     "description": "Bindings for Greasemonkey API and an userscript header generator",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/gm_api"
+    "web": "https://github.com/thisago/gm_api"
   },
   {
     "name": "asyncthreadpool",
@@ -24262,7 +25225,7 @@
   },
   {
     "name": "ytextractor",
-    "url": "https://git.ozzuu.com/thisago/ytextractor",
+    "url": "https://github.com/thisago/ytextractor",
     "method": "git",
     "tags": [
       "youtube",
@@ -24271,7 +25234,7 @@
     ],
     "description": "Youtube data extractor",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/ytextractor"
+    "web": "https://github.com/thisago/ytextractor"
   },
   {
     "name": "nimja",
@@ -24320,7 +25283,8 @@
     "url": "https://github.com/DavidMeagher1/composition",
     "method": "git",
     "tags": [
-      "library"
+      "library",
+      "deleted"
     ],
     "description": "Composition pattern with event handling library in Nim",
     "license": "MIT",
@@ -24370,7 +25334,7 @@
   },
   {
     "name": "numToWord",
-    "url": "https://git.ozzuu.com/thisago/numToWord",
+    "url": "https://github.com/thisago/numToWord",
     "method": "git",
     "tags": [
       "numbers",
@@ -24379,7 +25343,7 @@
     ],
     "description": "Convert numbers to words",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/numToWord"
+    "web": "https://github.com/thisago/numToWord"
   },
   {
     "name": "bs",
@@ -24436,7 +25400,7 @@
   },
   {
     "name": "htmlAntiCopy",
-    "url": "https://git.ozzuu.com/thisago/htmlAntiCopy",
+    "url": "https://github.com/thisago/htmlAntiCopy",
     "method": "git",
     "tags": [
       "html",
@@ -24445,7 +25409,7 @@
     ],
     "description": "Block copy of any text in HTML",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/htmlAntiCopy"
+    "web": "https://github.com/thisago/htmlAntiCopy"
   },
   {
     "name": "distorm3",
@@ -24495,7 +25459,7 @@
   },
   {
     "name": "tic80",
-    "url": "https://git.ozzuu.com/thisago/tic80",
+    "url": "https://github.com/thisago/tic80",
     "method": "git",
     "tags": [
       "tic80",
@@ -24505,7 +25469,7 @@
     ],
     "description": "TIC-80 bindings",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/tic80"
+    "web": "https://github.com/thisago/tic80"
   },
   {
     "name": "nimcrypt",
@@ -24524,7 +25488,7 @@
     "description": "Implementation of Unix crypt with support for Crypt-MD5, Crypt-SHA256 and Crypt-SHA512",
     "license": "MIT",
     "web": "https://github.com/napalu/nimcrypt",
-    "doc": "https://github.com/napalu/nimcrypt/blob/v0.0.1/README.md"
+    "doc": "https://github.com/napalu/nimcrypt"
   },
   {
     "name": "surfing",
@@ -24564,7 +25528,8 @@
       "sdk",
       "matrix.org",
       "decentralization",
-      "protocol"
+      "protocol",
+      "deleted"
     ],
     "description": "A Matrix (https://matrix.org) client and appservice API wrapper for Nim!",
     "license": "GPL-3.0",
@@ -24696,11 +25661,11 @@
     ],
     "description": "A consistent markup language",
     "license": "GPL-3.0",
-    "web": "http://xidoc.nim.town/"
+    "web": "https://xidoc.nim.town/"
   },
   {
     "name": "tokarax",
-    "url": "https://git.ozzuu.com/thisago/tokarax",
+    "url": "https://github.com/thisago/tokarax",
     "method": "git",
     "tags": [
       "html",
@@ -24709,7 +25674,7 @@
     ],
     "description": "Converts HTML to Karax representation",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/tokarax"
+    "web": "https://github.com/thisago/tokarax"
   },
   {
     "name": "asyncanything",
@@ -24798,11 +25763,11 @@
     "description": "Simple ECS implementation for Nim",
     "license": "MIT",
     "web": "https://github.com/Timofffee/tecs.nim",
-    "doc": "https://timofffee.github.io/tecs.nim/"
+    "doc": "https://timofffee.github.io/tecs.nim/tecs.html"
   },
   {
     "name": "dataUrl",
-    "url": "https://git.ozzuu.com/thisago/dataUrl",
+    "url": "https://github.com/thisago/dataUrl",
     "method": "git",
     "tags": [
       "cli",
@@ -24811,11 +25776,11 @@
     ],
     "description": "Easily create data urls! CLI included",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/dataUrl"
+    "web": "https://github.com/thisago/dataUrl"
   },
   {
     "name": "animatecss",
-    "url": "https://git.ozzuu.com/thisago/animatecss",
+    "url": "https://github.com/thisago/animatecss",
     "method": "git",
     "tags": [
       "javascript",
@@ -24823,7 +25788,7 @@
     ],
     "description": "Easily use Animate.css classes",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/animatecss"
+    "web": "https://github.com/thisago/animatecss"
   },
   {
     "name": "config",
@@ -24929,7 +25894,7 @@
   },
   {
     "name": "brainlyextractor",
-    "url": "https://git.ozzuu.com/thisago/brainlyextractor",
+    "url": "https://github.com/thisago/brainlyextractor",
     "method": "git",
     "tags": [
       "library",
@@ -24938,11 +25903,11 @@
     ],
     "description": "Brainly data extractor",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/brainlyextractor"
+    "web": "https://github.com/thisago/brainlyextractor"
   },
   {
     "name": "duckduckgo",
-    "url": "https://git.ozzuu.com/thisago/duckduckgo",
+    "url": "https://github.com/thisago/duckduckgo",
     "method": "git",
     "tags": [
       "library",
@@ -24953,11 +25918,11 @@
     ],
     "description": "Duckduckgo search",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/duckduckgo"
+    "web": "https://github.com/thisago/duckduckgo"
   },
   {
     "name": "scraper",
-    "url": "https://git.ozzuu.com/thisago/scraper",
+    "url": "https://github.com/thisago/scraper",
     "method": "git",
     "tags": [
       "web",
@@ -24967,7 +25932,7 @@
     ],
     "description": "Scraping tools",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/scraper"
+    "web": "https://github.com/thisago/scraper"
   },
   {
     "name": "htmlunescape",
@@ -25028,7 +25993,7 @@
   },
   {
     "name": "bluesoftcosmos",
-    "url": "https://git.ozzuu.com/thisago/bluesoftcosmos",
+    "url": "https://github.com/thisago/bluesoftcosmos",
     "method": "git",
     "tags": [
       "scraper",
@@ -25038,7 +26003,7 @@
     ],
     "description": "Bluesoft Cosmos extractor",
     "license": "gpl-3.0",
-    "web": "https://git.ozzuu.com/thisago/bluesoftcosmos"
+    "web": "https://github.com/thisago/bluesoftcosmos"
   },
   {
     "name": "cliche",
@@ -25335,7 +26300,7 @@
       "date",
       "converter"
     ],
-    "description": "Jalili <=> Gregorian date converter, originally a copy of http://jdf.scr.ir/",
+    "description": "Jalili <=> Gregorian date converter, originally a copy of https://jdf.scr.ir/",
     "license": "MIT",
     "web": "https://github.com/hamidb80/jalili-nim"
   },
@@ -25448,7 +26413,7 @@
   },
   {
     "name": "servclip",
-    "url": "https://git.ozzuu.com/thisago/servclip",
+    "url": "https://github.com/thisago/servclip",
     "method": "git",
     "tags": [
       "clipboard",
@@ -25460,7 +26425,7 @@
     ],
     "description": "Manage your clipboard remotely",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/servclip"
+    "web": "https://github.com/thisago/servclip"
   },
   {
     "name": "slicerator",
@@ -25607,7 +26572,11 @@
   },
   {
     "name": "klymene",
-    "url": "https://github.com/georgelemon/clymene",
+    "alias": "kapsis"
+  },
+  {
+    "name": "kapsis",
+    "url": "https://github.com/openpeeps/kapsis",
     "method": "git",
     "tags": [
       "cli",
@@ -25615,16 +26584,15 @@
       "toolkit",
       "command-line",
       "cli-framework",
-      "klymene",
       "interactive"
     ],
-    "description": "Create beautiful command line interfaces in Nim. Based on docopt.",
+    "description": "Build delightful command line interfaces in seconds.",
     "license": "MIT",
-    "web": "https://github.com/georgelemon/clymene"
+    "web": "https://github.com/openpeeps/kapsis"
   },
   {
     "name": "tim",
-    "url": "https://github.com/openpeep/tim",
+    "url": "https://github.com/openpeeps/tim",
     "method": "git",
     "tags": [
       "template-engine",
@@ -25635,11 +26603,11 @@
     ],
     "description": "Really lightweight template engine",
     "license": "MIT",
-    "web": "https://github.com/openpeep/tim"
+    "web": "https://github.com/openpeeps/tim"
   },
   {
     "name": "nyml",
-    "url": "https://github.com/openpeep/nyml",
+    "url": "https://github.com/openpeeps/nyml",
     "method": "git",
     "tags": [
       "yaml",
@@ -25649,7 +26617,7 @@
     ],
     "description": "Stupid simple YAML-like implementation from YAML to JsonNode",
     "license": "MIT",
-    "web": "https://github.com/openpeep/nyml"
+    "web": "https://github.com/openpeeps/nyml"
   },
   {
     "name": "mdlldk",
@@ -25675,7 +26643,8 @@
       "psypac",
       "cli",
       "developer-tools",
-      "composer-alternative"
+      "composer-alternative",
+      "deleted"
     ],
     "description": "A fast, multi-threading and disk space efficient package manager for PHP development and production environments",
     "license": "GPL-3.0-or-later",
@@ -25695,7 +26664,7 @@
   },
   {
     "name": "watchout",
-    "url": "https://github.com/openpeep/watchout",
+    "url": "https://github.com/openpeeps/watchout",
     "method": "git",
     "tags": [
       "filesystem",
@@ -25709,7 +26678,7 @@
     ],
     "description": "⚡️ Just... yellin' for changes! File System Monitor for devs",
     "license": "MIT",
-    "web": "https://github.com/openpeep/watchout"
+    "web": "https://github.com/openpeeps/watchout"
   },
   {
     "name": "uap",
@@ -25722,12 +26691,12 @@
     ],
     "description": "Nim implementation of user-agent parser",
     "license": "Apache-2.0",
-    "web": "https://gitlab.com/artemklevtsov/nim-uap/-/blob/master/README.md",
-    "doc": "https://artemklevtsov.gitlab.io/nim-uap/ua.html"
+    "web": "https://gitlab.com/artemklevtsov/nim-uap/",
+    "doc": "https://artemklevtsov.gitlab.io/nim-uap/"
   },
   {
     "name": "madam",
-    "url": "https://github.com/openpeep/madam",
+    "url": "https://github.com/openpeeps/madam",
     "method": "git",
     "tags": [
       "frontend",
@@ -25738,7 +26707,7 @@
     ],
     "description": "Local webserver for Design Prototyping and Front-end Development",
     "license": "MIT",
-    "web": "https://github.com/openpeep/madam"
+    "web": "https://github.com/openpeeps/madam"
   },
   {
     "name": "dnd",
@@ -25859,7 +26828,11 @@
   },
   {
     "name": "variantsugar",
-    "url": "https://github.com/metagn/variantsugar",
+    "alias": "skinsuit"
+  },
+  {
+    "name": "skinsuit",
+    "url": "https://github.com/metagn/skinsuit",
     "method": "git",
     "tags": [
       "object",
@@ -25872,7 +26845,7 @@
     ],
     "description": "utility macros mostly for object variants",
     "license": "MIT",
-    "web": "https://github.com/metagn/variantsugar"
+    "web": "https://github.com/metagn/skinsuit"
   },
   {
     "name": "dogapi",
@@ -25889,7 +26862,7 @@
   },
   {
     "name": "toktok",
-    "url": "https://github.com/openpeep/toktok",
+    "url": "https://github.com/openpeeps/toktok",
     "method": "git",
     "tags": [
       "lexer",
@@ -25902,7 +26875,7 @@
     ],
     "description": "Generic tokenizer written in Nim language 👑 Powered by Nim's Macros",
     "license": "MIT",
-    "web": "https://github.com/openpeep/toktok"
+    "web": "https://github.com/openpeeps/toktok"
   },
   {
     "name": "dogapi_cli",
@@ -26169,7 +27142,7 @@
   },
   {
     "name": "gimg",
-    "url": "https://git.ozzuu.com/thisago/gimg",
+    "url": "https://github.com/thisago/gimg",
     "method": "git",
     "tags": [
       "scraper",
@@ -26180,11 +27153,11 @@
     ],
     "description": "Google Images scraper lib and CLI",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/gimg"
+    "web": "https://github.com/thisago/gimg"
   },
   {
     "name": "parsepage",
-    "url": "https://git.ozzuu.com/thisago/parsepage",
+    "url": "https://github.com/thisago/parsepage",
     "method": "git",
     "tags": [
       "extractor",
@@ -26196,7 +27169,7 @@
     ],
     "description": "Automatically extracts the data of sites",
     "license": "GPL-3.0-only",
-    "web": "https://git.ozzuu.com/thisago/parsepage"
+    "web": "https://github.com/thisago/parsepage"
   },
   {
     "name": "resultsutils",
@@ -26701,7 +27674,7 @@
   },
   {
     "name": "pkginfo",
-    "url": "https://github.com/openpeep/pkginfo",
+    "url": "https://github.com/openpeeps/pkginfo",
     "method": "git",
     "tags": [
       "macros",
@@ -26713,7 +27686,7 @@
     ],
     "description": "A tiny utility package to extract Nimble information from any project",
     "license": "MIT",
-    "web": "https://github.com/openpeep/pkginfo"
+    "web": "https://github.com/openpeeps/pkginfo"
   },
   {
     "name": "imstyle",
@@ -26817,7 +27790,7 @@
     "description": "Fetch fushinsha serif data and save as csv files",
     "license": "MIT",
     "web": "https://github.com/eggplants/fushin",
-    "doc": "https://egpl.ga/fushin/fushin.html"
+    "doc": "https://egpl.dev/fushin/fushin.html"
   },
   {
     "name": "urlon",
@@ -27056,7 +28029,7 @@
   },
   {
     "name": "util",
-    "url": "https://git.ozzuu.com/thisago/util",
+    "url": "https://github.com/thisago/util",
     "method": "git",
     "tags": [
       "html",
@@ -27065,11 +28038,11 @@
     ],
     "description": "Small utilities that isn't large enough to have a individual modules",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/util"
+    "web": "https://github.com/thisago/util"
   },
   {
     "name": "kiwifyDownload",
-    "url": "https://git.ozzuu.com/thisago/kiwifyDownload",
+    "url": "https://github.com/thisago/kiwifyDownload",
     "method": "git",
     "tags": [
       "download",
@@ -27081,7 +28054,7 @@
     ],
     "description": "Downloads the kiwify videos from course JSON",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/kiwifyDownload"
+    "web": "https://github.com/thisago/kiwifyDownload"
   },
   {
     "name": "timsort2",
@@ -27107,7 +28080,7 @@
   },
   {
     "name": "vimeo",
-    "url": "https://git.ozzuu.com/thisago/vimeo",
+    "url": "https://github.com/thisago/vimeo",
     "method": "git",
     "tags": [
       "vimeo",
@@ -27116,7 +28089,7 @@
     ],
     "description": "Vimeo extractor",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/vimeo"
+    "web": "https://github.com/thisago/vimeo"
   },
   {
     "name": "wayland",
@@ -27195,7 +28168,7 @@
   },
   {
     "name": "editlyconf",
-    "url": "https://git.ozzuu.com/thisago/editlyconf",
+    "url": "https://github.com/thisago/editlyconf",
     "method": "git",
     "tags": [
       "video",
@@ -27207,11 +28180,11 @@
     ],
     "description": "Editly config generation tools and types",
     "license": "mit",
-    "web": "https://git.ozzuu.com/thisago/editlyconf"
+    "web": "https://github.com/thisago/editlyconf"
   },
   {
     "name": "nbcnews",
-    "url": "https://git.ozzuu.com/thisago/nbcnews",
+    "url": "https://github.com/thisago/nbcnews",
     "method": "git",
     "tags": [
       "scraper",
@@ -27221,7 +28194,7 @@
     ],
     "description": "NBC News scraper",
     "license": "gpl-3.0-only",
-    "web": "https://git.ozzuu.com/thisago/nbcnews"
+    "web": "https://github.com/thisago/nbcnews"
   },
   {
     "name": "records",
@@ -27354,7 +28327,7 @@
   },
   {
     "name": "pricecsv",
-    "url": "https://git.ozzuu.com/thisago/pricecsv",
+    "url": "https://github.com/thisago/pricecsv",
     "method": "git",
     "tags": [
       "cli",
@@ -27366,7 +28339,7 @@
     ],
     "description": "Easily calculate the total of all products in csv",
     "license": "gpl-3.0",
-    "web": "https://git.ozzuu.com/thisago/pricecsv"
+    "web": "https://github.com/thisago/pricecsv"
   },
   {
     "name": "bu",
@@ -27378,11 +28351,22 @@
       "posix",
       "linux",
       "sysadmin",
+      "sys admin",
       "system administration",
       "shell utilities",
+      "pipeline",
       "benchmarking",
       "colorization",
-      "extreme value statistics"
+      "measurement",
+      "benchmarking",
+      "extreme value statistics",
+      "file types",
+      "file times",
+      "terminal",
+      "random",
+      "sampling",
+      "space management",
+      "miscellany"
     ],
     "description": "B)asic|But-For U)tility Code/Programs (Usually Nim & With Unix/POSIX/Linux Context)",
     "license": "MIT/ISC",
@@ -27446,7 +28430,7 @@
   },
   {
     "name": "studiobacklottv",
-    "url": "https://git.ozzuu.com/thisago/studiobacklottv",
+    "url": "https://github.com/thisago/studiobacklottv",
     "method": "git",
     "tags": [
       "video",
@@ -27457,11 +28441,11 @@
     ],
     "description": "Studio Backlot TV video extractor",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/studiobacklottv"
+    "web": "https://github.com/thisago/studiobacklottv"
   },
   {
     "name": "brightcove",
-    "url": "https://git.ozzuu.com/thisago/brightcove",
+    "url": "https://github.com/thisago/brightcove",
     "method": "git",
     "tags": [
       "library",
@@ -27471,20 +28455,7 @@
     ],
     "description": "Brightcove player parser",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/brightcove"
-  },
-  {
-    "name": "codegenlib",
-    "url": "https://github.com/Mythical-Forest-Collective/CodeGenLib",
-    "method": "git",
-    "tags": [
-      "library",
-      "codegen",
-      "codegeneration"
-    ],
-    "description": "A simple code generation library for other programming languages!",
-    "license": "MIT",
-    "web": "https://github.com/Mythical-Forest-Collective/CodeGenLib"
+    "web": "https://github.com/thisago/brightcove"
   },
   {
     "name": "safeset",
@@ -27547,6 +28518,8 @@
     "tags": [
       "rolling hash",
       "content-sensitive framing",
+      "content-defined chunking",
+      "CDC",
       "near duplicate",
       "duplicate",
       "detection",
@@ -27633,7 +28606,7 @@
   },
   {
     "name": "ezscr",
-    "url": "https://git.ozzuu.com/thisago/ezscr",
+    "url": "https://github.com/thisago/ezscr",
     "method": "git",
     "tags": [
       "script",
@@ -27643,7 +28616,7 @@
     ],
     "description": "Portable and easy Nimscript runner. Nim compiler not needed",
     "license": "gpl-3.0-only",
-    "web": "https://git.ozzuu.com/thisago/ezscr"
+    "web": "https://github.com/thisago/ezscr"
   },
   {
     "name": "packy",
@@ -27712,7 +28685,7 @@
   },
   {
     "name": "checkif",
-    "url": "https://git.ozzuu.com/thisago/checkif",
+    "url": "https://github.com/thisago/checkif",
     "method": "git",
     "tags": [
       "windows",
@@ -27723,7 +28696,7 @@
     ],
     "description": "A CLI tool to check files (and registry in Windows)",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/checkif"
+    "web": "https://github.com/thisago/checkif"
   },
   {
     "name": "kdl",
@@ -27807,7 +28780,7 @@
   },
   {
     "name": "ytcc",
-    "url": "https://git.ozzuu.com/thisago/ytcc",
+    "url": "https://github.com/thisago/ytcc",
     "method": "git",
     "tags": [
       "cli",
@@ -27818,7 +28791,7 @@
     ],
     "description": "CLI tool to get Youtube video captions (with chapters)",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/ytcc"
+    "web": "https://github.com/thisago/ytcc"
   },
   {
     "name": "wcwidth",
@@ -28270,16 +29243,17 @@
   },
   {
     "name": "gptcli",
-    "url": "https://github.com/HACCKKER/gptcli",
+    "url": "https://github.com/jaredmontoya/gptcli",
     "method": "git",
     "tags": [
       "client",
       "cli",
-      "chatgpt"
+      "chatgpt",
+      "openai"
     ],
     "description": "chatgpt cli client written in nim",
-    "license": "MIT",
-    "web": "https://github.com/HACCKKER/gptcli"
+    "license": "GPL-3.0-or-later",
+    "web": "https://github.com/jaredmontoya/gptcli"
   },
   {
     "name": "update_nimble_version",
@@ -28481,7 +29455,7 @@
   },
   {
     "name": "googleTranslate",
-    "url": "https://git.ozzuu.com/thisago/googleTranslate",
+    "url": "https://github.com/thisago/googleTranslate",
     "method": "git",
     "tags": [
       "translate",
@@ -28492,7 +29466,7 @@
     ],
     "description": "A simple Google Translate implementation",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/googleTranslate"
+    "web": "https://github.com/thisago/googleTranslate"
   },
   {
     "name": "curly",
@@ -28593,7 +29567,7 @@
   },
   {
     "name": "subscribestar",
-    "url": "https://git.ozzuu.com/thisago/subscribestar",
+    "url": "https://github.com/thisago/subscribestar",
     "method": "git",
     "tags": [
       "web",
@@ -28604,7 +29578,7 @@
     ],
     "description": "Subscribestar extractor",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/subscribestar"
+    "web": "https://github.com/thisago/subscribestar"
   },
   {
     "name": "freedesktop_org",
@@ -28818,7 +29792,7 @@
   },
   {
     "name": "find",
-    "url": "https://github.com/openpeep/find",
+    "url": "https://github.com/openpeeps/find",
     "method": "git",
     "tags": [
       "files",
@@ -28831,11 +29805,11 @@
     ],
     "description": "Finds files and directories based on different criteria via an intuitive fluent interface",
     "license": "MIT",
-    "web": "https://github.com/openpeep/find"
+    "web": "https://github.com/openpeeps/find"
   },
   {
     "name": "valido",
-    "url": "https://github.com/openpeep/valido",
+    "url": "https://github.com/openpeeps/valido",
     "method": "git",
     "tags": [
       "validation",
@@ -28846,7 +29820,7 @@
     ],
     "description": "A library of string validators and sanitizers.",
     "license": "MIT",
-    "web": "https://github.com/openpeep/valido"
+    "web": "https://github.com/openpeeps/valido"
   },
   {
     "name": "elfcore",
@@ -28880,7 +29854,7 @@
   },
   {
     "name": "bag",
-    "url": "https://github.com/openpeep/bag",
+    "url": "https://github.com/openpeeps/bag",
     "method": "git",
     "tags": [
       "form",
@@ -28890,7 +29864,7 @@
     ],
     "description": "Validate HTTP input data in a fancy way",
     "license": "MIT",
-    "web": "https://github.com/openpeep/bag"
+    "web": "https://github.com/openpeeps/bag"
   },
   {
     "name": "labeledtypes",
@@ -28910,7 +29884,7 @@
   },
   {
     "name": "iconim",
-    "url": "https://github.com/openpeep/iconim",
+    "url": "https://github.com/openpeeps/iconim",
     "method": "git",
     "tags": [
       "svg",
@@ -28923,7 +29897,7 @@
     ],
     "description": "SVG icon library manager for server-side rendering",
     "license": "MIT",
-    "web": "https://github.com/openpeep/iconim"
+    "web": "https://github.com/openpeeps/iconim"
   },
   {
     "name": "lowdb",
@@ -28983,7 +29957,7 @@
   },
   {
     "name": "bibleTools",
-    "url": "https://git.ozzuu.com/thisago/bibleTools",
+    "url": "https://github.com/thisago/bibleTools",
     "method": "git",
     "tags": [
       "bible",
@@ -28994,7 +29968,7 @@
     ],
     "description": "Bible tools!",
     "license": "MIT",
-    "web": "https://git.ozzuu.com/thisago/bibleTools"
+    "web": "https://github.com/thisago/bibleTools"
   },
   {
     "name": "bezier",
@@ -29007,5 +29981,3549 @@
     "description": "Bezier curve tools",
     "license": "Apache-2.0",
     "web": "https://github.com/Nycto/bezier-nim"
+  },
+  {
+    "name": "ants",
+    "url": "https://github.com/elcritch/ants",
+    "method": "git",
+    "tags": [
+      "yaml",
+      "markdown",
+      "configuration"
+    ],
+    "description": "ANT: statically typed configurations for Nim (and others)",
+    "license": "MIT",
+    "web": "https://github.com/elcritch/ants"
+  },
+  {
+    "name": "kraut",
+    "url": "https://github.com/moigagoo/kraut",
+    "method": "git",
+    "tags": [
+      "frontend",
+      "router",
+      "karax",
+      "spa",
+      "js"
+    ],
+    "description": "Router for Karax frontend framework.",
+    "license": "MIT",
+    "web": "https://github.com/moigagoo/kraut"
+  },
+  {
+    "name": "heine",
+    "url": "https://git.sr.ht/~xigoi/heine",
+    "method": "git",
+    "tags": [
+      "math",
+      "latex",
+      "language"
+    ],
+    "description": "A compact notation for math that transpiles to LaTeX",
+    "license": "GPL-3.0-or-later",
+    "web": "https://xigoi.srht.site/heine/"
+  },
+  {
+    "name": "ni18n",
+    "url": "https://github.com/heinthanth/ni18n",
+    "method": "git",
+    "tags": [
+      "i18n",
+      "l10n",
+      "internationalization",
+      "localization",
+      "translation"
+    ],
+    "description": "Super Fast Nim Macros For Internationalization and Localization",
+    "license": "MIT",
+    "web": "https://github.com/heinthanth/ni18n"
+  },
+  {
+    "name": "versicles",
+    "url": "https://github.com/thisago/versicles",
+    "method": "git",
+    "tags": [
+      "bible",
+      "verses",
+      "versicles",
+      "scriptures",
+      "markdown",
+      "tool",
+      "cli",
+      "library"
+    ],
+    "description": "Lib and CLI tool to manipulate biblical verses!",
+    "license": "MIT",
+    "web": "https://github.com/thisago/versicles"
+  },
+  {
+    "name": "sam_protocol",
+    "url": "https://github.com/gabbhack/sam_protocol",
+    "method": "git",
+    "tags": [
+      "i2p"
+    ],
+    "description": "I2P SAM Protocol without any IO",
+    "license": "MIT",
+    "web": "https://github.com/gabbhack/sam_protocol",
+    "doc": "https://gabb.eu.org/sam_protocol"
+  },
+  {
+    "name": "Runned",
+    "url": "https://github.com/Gael-Lopes-Da-Silva/Runned",
+    "method": "git",
+    "tags": [
+      "runned",
+      "time",
+      "ptime",
+      "executiontime",
+      "execution-time",
+      "execution_time"
+    ],
+    "description": "Runned is a simple tool to check the execution time of terminal commands.",
+    "license": "MIT",
+    "web": "https://github.com/Gael-Lopes-Da-Silva/Runned"
+  },
+  {
+    "name": "locert",
+    "url": "https://github.com/vandot/locert",
+    "method": "git",
+    "tags": [
+      "cert",
+      "ca",
+      "developer-tools"
+    ],
+    "description": "Simple cert generator for local development.",
+    "license": "BSD-3-Clause",
+    "web": "https://github.com/vandot/locert"
+  },
+  {
+    "name": "spinners",
+    "url": "https://github.com/thechampagne/libspinners-nim",
+    "method": "git",
+    "tags": [
+      "spinners"
+    ],
+    "description": "Binding for libspinners an elegant terminal spinners",
+    "license": "MIT",
+    "web": "https://github.com/thechampagne/libspinners-nim"
+  },
+  {
+    "name": "cliSeqSelector",
+    "url": "https://github.com/z-kk/cliSeqSelector",
+    "method": "git",
+    "tags": [
+      "cli",
+      "console",
+      "selector",
+      "combo"
+    ],
+    "description": "Seq selector in CLI",
+    "license": "MIT",
+    "web": "https://github.com/z-kk/cliSeqSelector"
+  },
+  {
+    "name": "primes",
+    "url": "https://github.com/wokibe/primes",
+    "method": "git",
+    "tags": [
+      "primes",
+      "is_prime"
+    ],
+    "description": "Utilities for prime numbers",
+    "license": "MIT",
+    "web": "https://github.com/wokibe/primes"
+  },
+  {
+    "name": "scfg",
+    "url": "https://codeberg.org/xoich/nim-scfg",
+    "method": "git",
+    "tags": [
+      "library",
+      "config",
+      "parser"
+    ],
+    "description": "Simple configuration file format (scfg) parser",
+    "license": "CC-BY-SA 4.0",
+    "web": "https://codeberg.org/xoich/nim-scfg"
+  },
+  {
+    "name": "powernim",
+    "url": "https://codeberg.org/wreed/powernim",
+    "method": "git",
+    "tags": [
+      "menu",
+      "powermenu",
+      "gui",
+      "gtk"
+    ],
+    "description": "Basic power menu for Linux (with systemd)",
+    "license": "BSD-2-Clause",
+    "web": "https://codeberg.org/wreed/powernim"
+  },
+  {
+    "name": "metacall",
+    "url": "https://github.com/metacall/core?subdir=source/ports/nim_port",
+    "method": "git",
+    "tags": [
+      "ffi",
+      "interop",
+      "interoperability",
+      "bindings",
+      "wrapper",
+      "python",
+      "nodejs",
+      "ruby",
+      "csharp",
+      "rust",
+      "c",
+      "java",
+      "javascript",
+      "typescript",
+      "cobol",
+      "rpc",
+      "wasm",
+      "meta-object-protocol"
+    ],
+    "description": "A library for interoperability between Nim and multiple programming languages",
+    "license": "Apache-2.0",
+    "web": "https://metacall.io",
+    "doc": "https://github.com/metacall/core/blob/develop/source/ports/nim_port/README.md"
+  },
+  {
+    "name": "jsonfmt",
+    "url": "https://github.com/fkdosilovic/jsonfmt",
+    "method": "git",
+    "tags": [
+      "json",
+      "cli"
+    ],
+    "description": "Ridiculously simple and effective JSON formatter.",
+    "license": "MIT",
+    "web": "https://github.com/fkdosilovic/jsonfmt"
+  },
+  {
+    "name": "climate",
+    "url": "https://github.com/moigagoo/climate",
+    "method": "git",
+    "tags": [
+      "cli",
+      "command-line",
+      "commandline"
+    ],
+    "description": "Library to build command-line interfaces.",
+    "license": "MIT",
+    "web": "https://github.com/moigagoo/climate"
+  },
+  {
+    "name": "nimprotect",
+    "url": "https://github.com/itaymigdal/NimProtect",
+    "method": "git",
+    "tags": [
+      "Encryption",
+      "Obfuscation"
+    ],
+    "description": "NimProtect is a tiny single-macro library for protecting sensitive strings in compiled binaries",
+    "license": "MIT",
+    "web": "https://github.com/itaymigdal/NimProtect"
+  },
+  {
+    "name": "letUtils",
+    "url": "https://github.com/SirNickolas/let-utils-nim",
+    "method": "git",
+    "tags": [
+      "functional",
+      "macros",
+      "sugar",
+      "syntax",
+      "utility"
+    ],
+    "description": "A few handy macros for those who prefer `let` over `var`",
+    "license": "MIT",
+    "doc": "https://sirnickolas.github.io/let-utils-nim/letUtils"
+  },
+  {
+    "name": "palladian",
+    "url": "https://github.com/itsumura-h/nim-palladian",
+    "method": "git",
+    "tags": [
+      "web",
+      "frontend"
+    ],
+    "description": "A Frontend Web Framework for Nim based on Preact",
+    "license": "MIT",
+    "web": "https://github.com/itsumura-h/nim-palladian"
+  },
+  {
+    "name": "sauer",
+    "url": "https://github.com/moigagoo/sauer",
+    "method": "git",
+    "tags": [
+      "web",
+      "SPA",
+      "Karax",
+      "Kraut",
+      "CLI",
+      "frontend",
+      "router"
+    ],
+    "description": "Scaffolder for Karax.",
+    "license": "MIT",
+    "web": "https://github.com/moigagoo/sauer"
+  },
+  {
+    "name": "wilayahindonesia",
+    "url": "https://github.com/nekoding/wilayahindonesia-nim",
+    "method": "git",
+    "tags": [
+      "library",
+      "api",
+      "wrapper"
+    ],
+    "description": "Library data wilayah indonesia",
+    "license": "MIT",
+    "web": "https://github.com/nekoding/wilayahindonesia-nim"
+  },
+  {
+    "name": "epub2gpub",
+    "url": "https://gitlab.com/mars2klb/epub2gpub",
+    "method": "git",
+    "tags": [
+      "epub",
+      "gpub",
+      "gemini",
+      "ebook",
+      "convert"
+    ],
+    "description": "Convert epub to gpub (https://codeberg.org/oppenlab/gempub)",
+    "license": "MIT",
+    "web": "https://gitlab.com/mars2klb/epub2gpub"
+  },
+  {
+    "name": "asyncIters",
+    "url": "https://github.com/SirNickolas/asyncIters-Nim",
+    "method": "git",
+    "tags": [
+      "async",
+      "iterator",
+      "macros",
+      "sugar",
+      "syntax"
+    ],
+    "description": "Async iterators. Able to both await futures and yield values",
+    "license": "MIT",
+    "doc": "https://sirnickolas.github.io/asyncIters-Nim/asyncIters"
+  },
+  {
+    "name": "dhash",
+    "url": "https://github.com/filvyb/dhash",
+    "method": "git",
+    "tags": [
+      "hash",
+      "library",
+      "difference",
+      "image"
+    ],
+    "description": "Nim implementation of dHash algorithm",
+    "license": "LGPLv3",
+    "web": "https://github.com/filvyb/dhash"
+  },
+  {
+    "name": "minicoro",
+    "url": "https://git.envs.net/iacore/minicoro-nim",
+    "method": "git",
+    "tags": [
+      "wrapper",
+      "coroutine"
+    ],
+    "description": "Lua-like asymmetric coroutine. Nim wrapper of minicoro in C",
+    "license": "Unlicense",
+    "web": "https://git.envs.net/iacore/minicoro-nim"
+  },
+  {
+    "name": "nclip",
+    "url": "https://github.com/4zv4l/nclip",
+    "method": "git",
+    "tags": [
+      "winapi",
+      "clipboard",
+      "wrapper"
+    ],
+    "description": "A simple wrapper around the winapi to control the clipboard",
+    "license": "MIT",
+    "web": "https://github.com/4zv4l/nclip"
+  },
+  {
+    "name": "jsFetchMock",
+    "url": "https://github.com/thisago/jsfetchMock",
+    "method": "git",
+    "tags": [
+      "web",
+      "js",
+      "mock",
+      "fetch",
+      "library"
+    ],
+    "description": "A simple lib to intercept Javascript fetch to capture or edit the data",
+    "license": "MIT",
+    "web": "https://github.com/thisago/jsfetchMock"
+  },
+  {
+    "name": "noptics",
+    "url": "https://gitlab.com/OFThomas/noptics",
+    "method": "git",
+    "tags": [
+      "optics",
+      "linear-algebra",
+      "quantum",
+      "complex-numbers",
+      "library"
+    ],
+    "description": "Linear algebra, classical and quantum optics simulation package",
+    "license": "Apache-2.0",
+    "web": "https://gitlab.com/OFThomas/noptics",
+    "doc": "https://ofthomas.gitlab.io/noptics/"
+  },
+  {
+    "name": "fungus",
+    "url": "https://github.com/beef331/fungus",
+    "method": "git",
+    "tags": [
+      "adt",
+      "enum",
+      "rust",
+      "match",
+      "tagged union"
+    ],
+    "description": "Rust-like tuple enums",
+    "license": "MIT",
+    "web": "https://github.com/beef331/fungus"
+  },
+  {
+    "name": "climinesweeper",
+    "url": "https://github.com/KerorinNorthFox/MineSweeper_on_CLI",
+    "method": "git",
+    "tags": [
+      "minesweeper",
+      "cli",
+      "game",
+      "application"
+    ],
+    "description": "Play MineSweeper on CLI",
+    "license": "MIT",
+    "web": "https://github.com/KerorinNorthFox/MineSweeper_on_CLI"
+  },
+  {
+    "name": "nimalyzer",
+    "url": "https://github.com/thindil/nimalyzer",
+    "method": "git",
+    "tags": [
+      "cli",
+      "tool",
+      "static analyzer",
+      "code analyzer"
+    ],
+    "description": "A static code analyzer for Nim",
+    "license": "BSD-3"
+  },
+  {
+    "name": "drawIt",
+    "url": "https://gitlab.com/OFThomas/drawIt",
+    "method": "git",
+    "tags": [
+      "terminal display",
+      "plotting",
+      "drawing",
+      "TUI",
+      "shapes"
+    ],
+    "description": "Nim Terminal User Interface library for plotting graphs and drawing shapes in the terminal, uses unicode chars and colours!",
+    "license": "Apache-2.0",
+    "web": "https://gitlab.com/OFThomas/drawIt"
+  },
+  {
+    "name": "embedfs",
+    "url": "https://github.com/iffy/nim-embedfs",
+    "method": "git",
+    "tags": [
+      "bundling",
+      "static"
+    ],
+    "description": "Embed directories in executables, easily",
+    "license": "MIT"
+  },
+  {
+    "name": "yanyl",
+    "url": "https://github.com/tanelso2/yanyl",
+    "method": "git",
+    "tags": [
+      "serialization",
+      "serialization-format",
+      "yaml"
+    ],
+    "description": "A library for using YAML with Nim",
+    "license": "Unlicense"
+  },
+  {
+    "name": "lodev",
+    "url": "https://github.com/vandot/lodev",
+    "method": "git",
+    "tags": [
+      "cert",
+      "ca",
+      "dns",
+      "server",
+      "proxy",
+      "https",
+      "developer-tools"
+    ],
+    "description": "Simple reverse proxy server for local development.",
+    "license": "BSD-3-Clause",
+    "web": "https://github.com/vandot/lodev"
+  },
+  {
+    "name": "lv2",
+    "url": "https://gitlab.com/lpirl/lv2-nim",
+    "method": "git",
+    "tags": [
+      "linux",
+      "bindings",
+      "audio",
+      "sound",
+      "daw",
+      "dsp",
+      "lv2"
+    ],
+    "description": "Nim bindings for LV2",
+    "license": "GPL-3.0",
+    "web": "https://gitlab.com/lpirl/lv2-nim"
+  },
+  {
+    "name": "happyx",
+    "url": "https://github.com/HapticX/happyx",
+    "method": "git",
+    "tags": [
+      "web",
+      "async",
+      "framework",
+      "frontend",
+      "backend",
+      "hapticx",
+      "happyx"
+    ],
+    "description": "Macro-oriented full-stack web-framework written with ♥",
+    "license": "MIT",
+    "web": "https://github.com/HapticX/happyx"
+  },
+  {
+    "name": "whisky",
+    "url": "https://github.com/guzba/whisky",
+    "method": "git",
+    "tags": [
+      "websockets"
+    ],
+    "description": "A blocking WebSocket client",
+    "license": "MIT",
+    "web": "https://github.com/guzba/whisky"
+  },
+  {
+    "name": "nuance",
+    "url": "https://github.com/metagn/nuance",
+    "method": "git",
+    "tags": [
+      "ast",
+      "compiler"
+    ],
+    "description": "nim untyped AST node generation at runtime with custom line info",
+    "license": "MIT",
+    "web": "https://github.com/metagn/nuance"
+  },
+  {
+    "name": "jsonnet",
+    "url": "https://github.com/thechampagne/jsonnet-nim",
+    "method": "git",
+    "tags": [
+      "jsonnet"
+    ],
+    "description": "Binding for Jsonnet the data templating language",
+    "license": "Apache-2.0",
+    "web": "https://github.com/thechampagne/jsonnet-nim"
+  },
+  {
+    "name": "hyper",
+    "url": "https://github.com/thechampagne/hyper-nim",
+    "method": "git",
+    "tags": [
+      "hyper"
+    ],
+    "description": "Binding for hyper an HTTP library",
+    "license": "Apache-2.0",
+    "web": "https://github.com/thechampagne/hyper-nim"
+  },
+  {
+    "name": "rure",
+    "url": "https://github.com/thechampagne/rure-nim",
+    "method": "git",
+    "tags": [
+      "rure"
+    ],
+    "description": "Binding for rust regex library",
+    "license": "Apache-2.0",
+    "web": "https://github.com/thechampagne/rure-nim"
+  },
+  {
+    "name": "rustls",
+    "url": "https://github.com/thechampagne/rustls-nim",
+    "method": "git",
+    "tags": [
+      "rustls"
+    ],
+    "description": "Binding for rustls a TLS library",
+    "license": "Apache-2.0",
+    "web": "https://github.com/thechampagne/rustls-nim"
+  },
+  {
+    "name": "cron",
+    "url": "https://github.com/c-blake/cron",
+    "method": "git",
+    "tags": [
+      "cron",
+      "scheduled-tasks",
+      "task-scheduler",
+      "periodic-jobs",
+      "jobs",
+      "demon",
+      "daemon"
+    ],
+    "description": "Library to ease writing cron-like programs",
+    "license": "MIT/ISC",
+    "web": "https://github.com/c-blake/cron"
+  },
+  {
+    "name": "dnsstamps2",
+    "url": "https://github.com/rockcavera/nim-dnsstamps2",
+    "method": "git",
+    "tags": [
+      "dns",
+      "dns-stamp",
+      "dnsstamp",
+      "dns-stamps",
+      "dnsstamps",
+      "stamp",
+      "stamps"
+    ],
+    "description": "DNS Stamps package",
+    "license": "MIT",
+    "web": "https://github.com/rockcavera/nim-dnsstamps2"
+  },
+  {
+    "name": "webgeolocation",
+    "url": "https://github.com/maleyva1/webgeoloaction",
+    "method": "git",
+    "tags": [
+      "bindings",
+      "geolocation"
+    ],
+    "description": "Bindings to the Webgeolocation Web API",
+    "license": "MIT",
+    "web": "https://github.com/maleyva1/webgeoloaction"
+  },
+  {
+    "name": "vcard",
+    "url": "https://github.com/jdbernard/nim-vcard.git",
+    "method": "git",
+    "tags": [
+      "address",
+      "contacts",
+      "library",
+      "vcard"
+    ],
+    "description": "Nim parser for the vCard format version 3.0 (4.0 planned).",
+    "license": "MIT",
+    "web": "https://github.com/jdbernard/nim-vcard"
+  },
+  {
+    "name": "nimppt",
+    "url": "https://github.com/HUSKI3/Nimppt",
+    "method": "git",
+    "tags": [
+      "presentation",
+      "cli",
+      "markdown"
+    ],
+    "description": "A simple and elegant presentation generator",
+    "license": "MIT",
+    "web": "https://github.com/HUSKI3/Nimppt"
+  },
+  {
+    "name": "nimAesCrypt",
+    "url": "https://github.com/maxDcb/nimAesCrypt",
+    "method": "git",
+    "tags": [
+      "nim",
+      "aes",
+      "security",
+      "aes-256",
+      "aes-encryption"
+    ],
+    "description": "Nim file-encryption module that uses AES256-CBC to encrypt/decrypt files.",
+    "license": "Apache 2.0",
+    "web": "https://github.com/maxDcb/nimAesCrypt"
+  },
+  {
+    "name": "niscv",
+    "url": "https://gitlab.com/OFThomas/niscv",
+    "method": "git",
+    "tags": [
+      "virtual-machine",
+      "emulator",
+      "riscv",
+      "isa",
+      "virtual",
+      "machine"
+    ],
+    "description": "Nim powered RISC-V virtual machine and emulator.",
+    "license": "GPL3",
+    "web": "https://gitlab.com/OFThomas/niscv"
+  },
+  {
+    "name": "catppuccin",
+    "url": "https://github.com/catppuccin/nim",
+    "method": "git",
+    "tags": [
+      "colors",
+      "cmyk",
+      "hsl",
+      "hsv"
+    ],
+    "description": "Catppuccin colors for nim.",
+    "license": "MIT",
+    "web": "https://github.com/catppuccin/nim",
+    "doc": "https://catppuccin.github.io/nim"
+  },
+  {
+    "name": "cozytaskpool",
+    "url": "https://github.com/indiscipline/cozytaskpool",
+    "method": "git",
+    "tags": [
+      "threads",
+      "tasks",
+      "multithreading",
+      "library",
+      "parallelism",
+      "threadpool",
+      "pool"
+    ],
+    "description": "Cozy Task Pool for threaded concurrency based on tasks and channels.",
+    "license": "GPL-2.0-or-later",
+    "web": "https://github.com/indiscipline/cozytaskpool"
+  },
+  {
+    "name": "cozylogwriter",
+    "url": "https://github.com/indiscipline/cozylogwriter",
+    "method": "git",
+    "tags": [
+      "log",
+      "logging",
+      "terminal",
+      "color",
+      "colors",
+      "colours",
+      "colour"
+    ],
+    "description": "Basic zero-dependency logging with automatic colors and styling for Nim.",
+    "license": "GPL-2.0-or-later",
+    "web": "https://github.com/indiscipline/cozylogwriter"
+  },
+  {
+    "name": "grammarian",
+    "url": "https://github.com/olmeca/grammarian",
+    "method": "git",
+    "tags": [
+      "peg",
+      "parsing"
+    ],
+    "description": "Wrapper around PEG library, enhancing PEG reusability.",
+    "license": "MIT"
+  },
+  {
+    "name": "checksums",
+    "url": "https://github.com/nim-lang/checksums",
+    "method": "git",
+    "tags": [
+      "checksums",
+      "official",
+      "hash",
+      "crypto"
+    ],
+    "description": "Hash algorithms in Nim.",
+    "license": "MIT",
+    "web": "https://github.com/nim-lang/checksums"
+  },
+  {
+    "name": "promexplorer",
+    "url": "https://github.com/marcusramberg/promexplorer",
+    "method": "git",
+    "tags": [
+      "prometheus",
+      "tui",
+      "illwill",
+      "monitoring"
+    ],
+    "description": "A simple tool to explore Prometheus exporter metrics",
+    "license": "mit",
+    "web": "https://github.com/marcusramberg/promexplorer"
+  },
+  {
+    "name": "dirtydeeds",
+    "url": "https://github.com/metagn/dirtydeeds",
+    "method": "git",
+    "tags": [
+      "macro",
+      "curry",
+      "partial",
+      "application",
+      "lambda",
+      "functional",
+      "sugar",
+      "syntax"
+    ],
+    "description": "macro for partially applied calls",
+    "license": "MIT",
+    "web": "https://github.com/metagn/dirtydeeds"
+  },
+  {
+    "name": "sunk",
+    "url": "https://github.com/archnim/sunk",
+    "method": "git",
+    "tags": [
+      "async",
+      "futures"
+    ],
+    "description": "Few async tools for nim (then, catch, finally, and more)",
+    "license": "MIT",
+    "web": "https://github.com/archnim/sunk"
+  },
+  {
+    "name": "openaiClient",
+    "url": "https://github.com/Uzo2005/openai",
+    "method": "git",
+    "tags": [
+      "openai",
+      "webclient",
+      "api",
+      "library",
+      "http"
+    ],
+    "description": "Openai API client For Nim",
+    "license": "MIT",
+    "web": "https://github.com/Uzo2005/openai"
+  },
+  {
+    "name": "gamepad",
+    "url": "https://github.com/konsumer/nim-gamepad",
+    "method": "git",
+    "tags": [
+      "gamepad",
+      "native",
+      "game",
+      "joystick"
+    ],
+    "description": "Cross-platform gamepad driver",
+    "license": "MIT",
+    "web": "https://github.com/konsumer/nim-gamepad"
+  },
+  {
+    "name": "safeseq",
+    "url": "https://github.com/avahe-kellenberger/safeseq",
+    "method": "git",
+    "tags": [
+      "seq",
+      "iteration",
+      "remove"
+    ],
+    "description": "Seq that can safely add and remove elements while iterating.",
+    "license": "GPL-2.0-only",
+    "web": "https://github.com/avahe-kellenberger/safeseq"
+  },
+  {
+    "name": "sha256_64B",
+    "url": "https://github.com/status-im/sha256_64B",
+    "method": "git",
+    "tags": [
+      "sha256_64B",
+      "sha256",
+      "batch parallel hash",
+      "assembly optimization",
+      "merkle tree"
+    ],
+    "description": "sha256 hash of batches of 64B blocks in parallel via pure asm lib hashtree",
+    "license": "MIT or Apache License 2.0",
+    "web": "https://github.com/status-im/sha256_64B"
+  },
+  {
+    "name": "chat_openai",
+    "url": "https://github.com/joshuajohncohen/chat_openai-nim",
+    "method": "git",
+    "tags": [
+      "openai",
+      "chatgpt",
+      "chat",
+      "client",
+      "cli",
+      "gpt4",
+      "gpt-4",
+      "gpt"
+    ],
+    "description": "A CLI for the Chat series of models provided by OpenAI",
+    "license": "MIT",
+    "web": "https://github.com/joshuajohncohen/chat_openai-nim"
+  },
+  {
+    "name": "nmostr",
+    "url": "https://github.com/Gruruya/nmostr",
+    "method": "git",
+    "tags": [
+      "nostr library",
+      "decentralized messaging protocol",
+      "censorship-resistant social media"
+    ],
+    "description": "Library for Nostr: a simple, open protocol enabling censorship-resistant social media.",
+    "license": "AGPL-3.0-only",
+    "web": "https://github.com/Gruruya/nmostr",
+    "doc": "https://gruruya.github.io/nmostr"
+  },
+  {
+    "name": "StripeKit",
+    "url": "https://github.com/vfehring/StripeKit",
+    "method": "git",
+    "tags": [
+      "payment-processor",
+      "stripe"
+    ],
+    "description": "Stripe API wrapper for Nim",
+    "license": "MIT",
+    "web": "https://github.com/vfehring/StripeKit"
+  },
+  {
+    "name": "physfs_static",
+    "url": "https://github.com/konsumer/nim-physfs_static",
+    "method": "git",
+    "tags": [
+      "physfs",
+      "zip",
+      "wad",
+      "iso9660",
+      "7z",
+      "grp",
+      "hog",
+      "mvl",
+      "qpak",
+      "slp",
+      "vdf"
+    ],
+    "description": "Wrapper around physfs",
+    "license": "MIT",
+    "web": "https://github.com/konsumer/nim-physfs_static"
+  },
+  {
+    "name": "nats",
+    "url": "https://github.com/deem0n/nim-nats",
+    "method": "git",
+    "tags": [
+      "nats",
+      "library",
+      "wrapper"
+    ],
+    "description": "Nim wrapper for the nats.c - NATS client library",
+    "license": "MIT",
+    "web": "https://github.com/deem0n/nim-nats"
+  },
+  {
+    "name": "nico_font_tool",
+    "url": "https://github.com/TakWolf/nico-font-tool",
+    "method": "git",
+    "tags": [
+      "pico-8",
+      "game"
+    ],
+    "description": "A tool for converting fonts to NICO Game Framework format fonts.",
+    "license": "MIT",
+    "web": "https://github.com/TakWolf/nico-font-tool"
+  },
+  {
+    "name": "perceptual",
+    "url": "https://github.com/deNULL/perceptual",
+    "method": "git",
+    "tags": [
+      "perceptual",
+      "hashes",
+      "images"
+    ],
+    "description": "A library for computing and comparing perceptual hashes in Nim",
+    "license": "MIT",
+    "web": "https://github.com/deNULL/perceptual"
+  },
+  {
+    "name": "malebolgia",
+    "url": "https://github.com/Araq/malebolgia",
+    "method": "git",
+    "tags": [
+      "thread",
+      "pool",
+      "spawn",
+      "concurrency",
+      "parallelism"
+    ],
+    "description": "Malebolgia creates new spawns. Experiments with thread pools and related APIs.",
+    "license": "MIT",
+    "web": "https://github.com/Araq/malebolgia"
+  },
+  {
+    "name": "statictea",
+    "url": "https://github.com/flenniken/statictea",
+    "method": "git",
+    "tags": [
+      "template system",
+      "language"
+    ],
+    "description": "A template processor and language.",
+    "license": "MIT",
+    "web": "https://github.com/flenniken/statictea"
+  },
+  {
+    "name": "pyopenai",
+    "url": "https://github.com/jaredmontoya/pyopenai",
+    "method": "git",
+    "tags": [
+      "python",
+      "openai",
+      "http",
+      "api",
+      "library"
+    ],
+    "description": "An attempt to reimplement python OpenAI API bindings in nim",
+    "license": "GPL-3.0-or-later",
+    "web": "https://github.com/jaredmontoya/pyopenai"
+  },
+  {
+    "name": "facedetect",
+    "url": "https://github.com/deNULL/facedetect",
+    "method": "git",
+    "tags": [
+      "face",
+      "detection",
+      "eye",
+      "pupil",
+      "pico",
+      "facial",
+      "landmarks"
+    ],
+    "description": "A face detection, pupil/eyes localization and facial landmark points detection library",
+    "license": "MIT",
+    "web": "https://github.com/deNULL/facedetect"
+  },
+  {
+    "name": "denim",
+    "url": "https://github.com/openpeeps/denim",
+    "method": "git",
+    "tags": [
+      "node",
+      "nodejs",
+      "bun",
+      "bunsh",
+      "napi",
+      "addon",
+      "toolkit"
+    ],
+    "description": "DENIM - Nim code to Bun.js/Node.js in seconds via NAPI",
+    "license": "MIT",
+    "web": "https://github.com/openpeeps/denim"
+  },
+  {
+    "name": "bro",
+    "url": "https://github.com/openpeeps/bro",
+    "method": "git",
+    "tags": [
+      "css",
+      "sass",
+      "parser",
+      "css-parser",
+      "css-compiler",
+      "stylesheet"
+    ],
+    "description": "A super fast statically typed stylesheet language for cool kids",
+    "license": "MIT",
+    "web": "https://github.com/openpeeps/bro"
+  },
+  {
+    "name": "nimcatapi",
+    "url": "https://github.com/nirokay/nimcatapi",
+    "method": "git",
+    "tags": [
+      "thecatapi",
+      "thedogapi",
+      "api",
+      "animals",
+      "network",
+      "images"
+    ],
+    "description": "nimcatapi is a library that lets you easily request images from thecatapi and/or thedogapi.",
+    "license": "GPL-3.0-only",
+    "web": "https://github.com/nirokay/nimcatapi",
+    "doc": "https://nirokay.github.io/nim-docs/nimcatapi/nimcatapi.html"
+  },
+  {
+    "name": "simplelog",
+    "url": "https://github.com/sslime336/simplelog",
+    "method": "git",
+    "tags": [
+      "log"
+    ],
+    "description": "A deadly simply log package supporting very simple colorful logging.",
+    "license": "MIT",
+    "web": "https://github.com/sslime336/simplelog"
+  },
+  {
+    "name": "measures",
+    "url": "https://github.com/energy-nim/measures",
+    "method": "git",
+    "tags": [
+      "library",
+      "units",
+      "physics",
+      "metrics",
+      "measurements"
+    ],
+    "description": "General purpose measuring units datatypes with integrated conversions and definitions.",
+    "license": "MIT",
+    "web": "https://github.com/energy-nim/measures"
+  },
+  {
+    "name": "shio",
+    "url": "https://github.com/arashi-software/shio",
+    "method": "git",
+    "tags": [
+      "web",
+      "server",
+      "file",
+      "http",
+      "jester"
+    ],
+    "description": "A quick media server in nim",
+    "license": "GPL-3.0-only",
+    "web": "https://github.com/arashi-software/shio"
+  },
+  {
+    "name": "delaunator",
+    "url": "https://github.com/patternspandemic/delaunator-nim",
+    "method": "git",
+    "tags": [
+      "delaunay",
+      "voronoi",
+      "dual graph",
+      "library"
+    ],
+    "description": "Fast 2D Delaunay triangulation. A Nim port of Mapbox/Delaunator.",
+    "license": "Unlicense",
+    "web": "https://github.com/patternspandemic/delaunator-nim",
+    "doc": "https://patternspandemic.github.io/delaunator-nim/"
+  },
+  {
+    "name": "pixienator",
+    "url": "https://github.com/patternspandemic/pixienator",
+    "method": "git",
+    "tags": [
+      "delaunator",
+      "pixie",
+      "visualization",
+      "delaunay",
+      "voronoi",
+      "dual graph",
+      "helpers",
+      "library"
+    ],
+    "description": "Helpers for visualizing delaunator with pixie.",
+    "license": "Unlicense",
+    "web": "https://github.com/patternspandemic/pixienator",
+    "doc": "https://patternspandemic.github.io/pixienator/"
+  },
+  {
+    "name": "nimmicrograd",
+    "url": "https://github.com/soheil555/nimmicrograd",
+    "method": "git",
+    "tags": [
+      "micrograd",
+      "neural-network",
+      "deep-learning",
+      "autograd-engine"
+    ],
+    "description": "Nim implementation of micrograd autograd engine.",
+    "license": "MIT",
+    "web": "https://github.com/soheil555/nimmicrograd"
+  },
+  {
+    "name": "nimegenerator",
+    "url": "https://github.com/nirokay/nimegenerator",
+    "method": "git",
+    "tags": [
+      "random-name-generator",
+      "random-word-generator",
+      "library",
+      "executable",
+      "hybrid"
+    ],
+    "description": "Random name/word generator.",
+    "license": "GPL-3.0-only",
+    "web": "https://github.com/nirokay/nimegenerator",
+    "doc": "https://nirokay.github.io/nim-docs/nimegenerator/nimegenerator.html"
+  },
+  {
+    "name": "hyperloglog",
+    "url": "https://github.com/deNULL/hyperloglog",
+    "method": "git",
+    "tags": [
+      "hyperloglog",
+      "hll",
+      "data-structure",
+      "count-distinct",
+      "cardinality",
+      "sets"
+    ],
+    "description": "A HyperLogLog data structure implementation in Nim",
+    "license": "MIT",
+    "web": "https://github.com/deNULL/hyperloglog"
+  },
+  {
+    "name": "bz2",
+    "url": "https://codeberg.org/Yepoleb/nim-bz2.git",
+    "method": "git",
+    "tags": [
+      "compression",
+      "bzip2",
+      "bz2"
+    ],
+    "description": "Nim module for the bzip2 compression format.",
+    "license": "MIT",
+    "web": "https://codeberg.org/Yepoleb/nim-bz2"
+  },
+  {
+    "name": "mvb",
+    "url": "https://github.com/tapsterbot/mvb-opencv",
+    "method": "git",
+    "tags": [
+      "opencv",
+      "library",
+      "wrapper",
+      "image",
+      "processing",
+      "minimal",
+      "mininum",
+      "viable",
+      "bindings"
+    ],
+    "description": "Minimum viable bindings for OpenCV",
+    "license": "MIT",
+    "web": "https://github.com/tapsterbot/mvb-opencv"
+  },
+  {
+    "name": "emailparser",
+    "url": "https://github.com/mildred/emailparser.nim",
+    "method": "git",
+    "tags": [
+      "email",
+      "rfc822",
+      "rfc2822",
+      "parser",
+      "jmap"
+    ],
+    "description": "Email parser to JsonNode based on Cyrus JMAP parser",
+    "license": "BSD",
+    "web": "https://github.com/mildred/emailparser.nim"
+  },
+  {
+    "name": "colored_logger",
+    "url": "https://github.com/4zv4l/colored_logger",
+    "method": "git",
+    "tags": [
+      "logging",
+      "colours"
+    ],
+    "description": "A simple colored logger from std/logging",
+    "license": "MIT",
+    "web": "https://github.com/4zv4l/colored_logger"
+  },
+  {
+    "name": "nimpath",
+    "url": "https://github.com/weskerfoot/NimPath",
+    "method": "git",
+    "tags": [
+      "web",
+      "parser"
+    ],
+    "description": "Interface to libxml2's XPath parser",
+    "license": "MIT",
+    "web": "https://github.com/weskerfoot/NimPath"
+  },
+  {
+    "name": "beautifulparser",
+    "url": "https://github.com/TelegramXPlus/beautifulparser",
+    "method": "git",
+    "tags": [
+      "parser",
+      "html"
+    ],
+    "description": "Simple parser for HTML",
+    "license": "MIT",
+    "web": "https://github.com/TelegramXPlus/beautifulparser"
+  },
+  {
+    "name": "brainimfuck",
+    "url": "https://github.com/nirokay/brainimfuck",
+    "method": "git",
+    "tags": [
+      "brainfuck",
+      "interpreter",
+      "language",
+      "cli",
+      "binary",
+      "app"
+    ],
+    "description": "Brainfuck interpreter with some advanced features, such as syntax checking and highlighting errors.",
+    "license": "GPL-3.0-only",
+    "web": "https://github.com/nirokay/brainimfuck"
+  },
+  {
+    "name": "gtrends",
+    "url": "https://github.com/thisago/gtrends",
+    "method": "git",
+    "tags": [
+      "library",
+      "google_trends",
+      "trends",
+      "rss",
+      "google"
+    ],
+    "description": "Google Trends RSS",
+    "license": "MIT",
+    "web": "https://github.com/thisago/gtrends"
+  },
+  {
+    "name": "musicSort",
+    "url": "https://github.com/CarkWilkinson/musicSort",
+    "method": "git",
+    "tags": [
+      "music"
+    ],
+    "description": "A tool to sort your mp3 music files based on id3 metadata",
+    "license": "MIT",
+    "web": "https://github.com/CarkWilkinson/musicSort"
+  },
+  {
+    "name": "DxLib",
+    "url": "https://github.com/777shuang/DxLib",
+    "method": "git",
+    "tags": [
+      "bindings"
+    ],
+    "description": "A Nim binding for DX Library",
+    "license": "MIT",
+    "web": "https://github.com/777shuang/DxLib"
+  },
+  {
+    "name": "caster",
+    "url": "https://github.com/hamidb80/caster/",
+    "method": "git",
+    "tags": [
+      "sugar",
+      "macro",
+      "cast",
+      "caster",
+      "casting",
+      "parameters"
+    ],
+    "description": "casting macro for procedure parameters",
+    "license": "MIT",
+    "web": "https://github.com/hamidb80/caster/"
+  },
+  {
+    "name": "spotlightr",
+    "url": "https://github.com/thisago/spotlightr",
+    "method": "git",
+    "tags": [
+      "library",
+      "extractor",
+      "scraper",
+      "video",
+      "stream"
+    ],
+    "description": "Spotlightr basic extractor to get the video",
+    "license": "MIT",
+    "web": "https://github.com/thisago/spotlightr"
+  },
+  {
+    "name": "rclnim",
+    "url": "https://github.com/Pylgos/rclnim",
+    "method": "git",
+    "tags": [
+      "library",
+      "embedded",
+      "ros2"
+    ],
+    "description": "Nim bindings for ROS2",
+    "license": "MIT",
+    "web": "https://github.com/Pylgos/rclnim"
+  },
+  {
+    "name": "broly",
+    "url": "https://github.com/solaoi/broly",
+    "method": "git",
+    "tags": [
+      "mock",
+      "stub",
+      "test",
+      "server"
+    ],
+    "description": "High Performance Stub Server",
+    "license": "MIT",
+    "web": "https://github.com/solaoi/broly"
+  },
+  {
+    "name": "voicepeaky",
+    "url": "https://github.com/solaoi/voicepeaky",
+    "method": "git",
+    "tags": [
+      "voicepeak",
+      "wrapper"
+    ],
+    "description": "Voicepeak Server",
+    "license": "MIT",
+    "web": "https://github.com/solaoi/voicepeaky"
+  },
+  {
+    "name": "nimf",
+    "url": "https://github.com/Gruruya/nimf",
+    "method": "git",
+    "tags": [
+      "find command-line utility",
+      "multithreaded filesystem search tool",
+      "fast",
+      "finder",
+      "cli",
+      "shell",
+      "terminal",
+      "console"
+    ],
+    "description": "Search for files in a directory hierarchy.",
+    "license": "AGPL-3.0-only",
+    "web": "https://github.com/Gruruya/nimf"
+  },
+  {
+    "name": "bard",
+    "url": "https://github.com/thisago/bard",
+    "method": "git",
+    "tags": [
+      "library",
+      "batchexecute",
+      "bard",
+      "ai",
+      "google"
+    ],
+    "description": "Nim interface of Google Bard free API",
+    "license": "MIT",
+    "web": "https://github.com/thisago/bard"
+  },
+  {
+    "name": "docid",
+    "url": "https://github.com/thisago/docid",
+    "method": "git",
+    "tags": [
+      "library",
+      "id",
+      "generator",
+      "verifier"
+    ],
+    "description": "Document IDs generation and validation",
+    "license": "MIT",
+    "web": "https://github.com/thisago/docid"
+  },
+  {
+    "name": "iecook",
+    "url": "https://github.com/thisago/iecook",
+    "method": "git",
+    "tags": [
+      "library",
+      "httpOnly",
+      "cookie",
+      "session"
+    ],
+    "description": "Cook all cookies of your browser",
+    "license": "MIT",
+    "web": "https://github.com/thisago/iecook"
+  },
+  {
+    "name": "clibard",
+    "url": "https://github.com/thisago/clibard",
+    "method": "git",
+    "tags": [
+      "cli",
+      "bard",
+      "ai",
+      "chat"
+    ],
+    "description": "Command line interface for Google Bard",
+    "license": "GPL-3.0-or-later",
+    "web": "https://github.com/thisago/clibard"
+  },
+  {
+    "name": "librng",
+    "url": "https://github.com/xTrayambak/librng",
+    "method": "git",
+    "tags": [
+      "library",
+      "rng",
+      "maths",
+      "math",
+      "random"
+    ],
+    "description": "RNG for dummies in Nim",
+    "license": "MIT",
+    "web": "https://github.com/xTrayambak/librng"
+  },
+  {
+    "name": "nimautogui",
+    "url": "https://github.com/Cooperzilla/nimautogui",
+    "method": "git",
+    "tags": [
+      "library",
+      "winapi"
+    ],
+    "description": "Moving the mouse around in nim inspired by python's pyautogui. Windows Only",
+    "license": "GNU GENERAL PUBLIC LICENSE",
+    "web": "https://github.com/Cooperzilla/nimautogui"
+  },
+  {
+    "name": "strophe",
+    "url": "https://github.com/SillaIndustries/nim-strophe",
+    "method": "git",
+    "tags": [
+      "library",
+      "wrapper",
+      "strophe",
+      "messaging"
+    ],
+    "description": "Libstrophe wrapper",
+    "license": "MIT",
+    "web": "https://github.com/SillaIndustries/nim-strophe"
+  },
+  {
+    "name": "chatgptclient",
+    "url": "https://github.com/jaredmontoya/chatgptclient",
+    "method": "git",
+    "tags": [
+      "client",
+      "openai",
+      "gpt",
+      "gui",
+      "chat"
+    ],
+    "description": "Native gui client for OpenAI chatgpt",
+    "license": "GPL-3.0-or-later",
+    "web": "https://github.com/jaredmontoya/chatgptclient"
+  },
+  {
+    "name": "bale",
+    "url": "https://github.com/hamidb80/bale",
+    "method": "git",
+    "tags": [
+      "bale",
+      "bale.ai",
+      "bot",
+      "api",
+      "client",
+      "messanger"
+    ],
+    "description": "Bale.ai bot API",
+    "license": "MIT",
+    "web": "https://github.com/hamidb80/bale"
+  },
+  {
+    "name": "minline",
+    "url": "https://github.com/h3rald/minline",
+    "method": "git",
+    "tags": [
+      "command-line",
+      "repl",
+      "prompt",
+      "readline",
+      "linenoise"
+    ],
+    "description": "A line editing library in pure Nim",
+    "license": "MIT",
+    "web": "https://github.com/h3rald/minline"
+  },
+  {
+    "name": "battinfo",
+    "url": "https://gitlab.com/prashere/battinfo",
+    "method": "git",
+    "tags": [
+      "utility",
+      "linux",
+      "battery"
+    ],
+    "description": "cli tool to query battery info for GNU/Linux",
+    "license": "GPL-3.0-only",
+    "web": "https://gitlab.com/prashere/battinfo"
+  },
+  {
+    "name": "anycallconv",
+    "url": "https://github.com/sls1005/anycallconv",
+    "method": "git",
+    "tags": [
+      "macro",
+      "sugar"
+    ],
+    "description": "A macro to create special procedural types for parameters.",
+    "license": "MIT",
+    "web": "https://github.com/sls1005/anycallconv"
+  },
+  {
+    "name": "bcs",
+    "url": "https://github.com/C-NERD/nimBcs",
+    "method": "git",
+    "tags": [
+      "bcs",
+      "aptos",
+      "serializer",
+      "deserializer",
+      "types"
+    ],
+    "description": "nim implementation of bcs serialization format",
+    "license": "MIT",
+    "web": "https://github.com/C-NERD/nimBcs"
+  },
+  {
+    "name": "karkas",
+    "url": "https://github.com/moigagoo/karkas",
+    "method": "git",
+    "tags": [
+      "Karax",
+      "frontend",
+      "layout"
+    ],
+    "description": "Layout helpers and sugar for Karax",
+    "license": "MIT",
+    "web": "https://github.com/moigagoo/karkas"
+  },
+  {
+    "name": "voicepeaky4gpt",
+    "url": "https://github.com/solaoi/voicepeaky4gpt",
+    "method": "git",
+    "tags": [
+      "voicepeak",
+      "wrapper",
+      "opeanai",
+      "gpt"
+    ],
+    "description": "Voicepeak Server With GPT",
+    "license": "MIT",
+    "web": "https://github.com/solaoi/voicepeaky4gpt"
+  },
+  {
+    "name": "dan_magaji",
+    "url": "https://github.com/C-NERD/dan_magaji",
+    "method": "git",
+    "tags": [
+      "proxy",
+      "http",
+      "ws",
+      "websocket",
+      "tcp",
+      "udp",
+      "extensible",
+      "server"
+    ],
+    "description": "extensible performant http and web socket proxy server",
+    "license": "MIT",
+    "web": "https://github.com/C-NERD/dan_magaji"
+  },
+  {
+    "name": "fastpnm",
+    "url": "https://github.com/hamidb80/pbm",
+    "method": "git",
+    "tags": [
+      "netpbm",
+      "parser",
+      "pbm",
+      "pgm",
+      "ppm",
+      "pnm",
+      "fast"
+    ],
+    "description": "fast PNM (.pbm .pgm .ppm) parser",
+    "license": "MIT",
+    "web": "https://github.com/hamidb80/fastpnm"
+  },
+  {
+    "name": "mapster",
+    "url": "https://github.com/PhilippMDoerner/mapster",
+    "method": "git",
+    "tags": [
+      "mapping",
+      "map",
+      "pragma",
+      "convert",
+      "code-generation"
+    ],
+    "description": "A library to quickly generate functions converting instances of type A to B",
+    "license": "MIT",
+    "web": "https://github.com/PhilippMDoerner/mapster"
+  },
+  {
+    "name": "namenumbersort",
+    "url": "https://github.com/amaank404/namenumbersort",
+    "method": "git",
+    "tags": [
+      "sorting",
+      "hybrid",
+      "cmp"
+    ],
+    "description": "Provides a system.cmp like function that can be used with std/algorithm.sort to smartly sort string sequences based on their contents rather than exact match",
+    "license": "MIT",
+    "web": "https://github.com/amaank404/namenumbersort"
+  },
+  {
+    "name": "cflags",
+    "url": "https://github.com/MCRusher/cflags",
+    "method": "git",
+    "tags": [
+      "c",
+      "interop",
+      "library"
+    ],
+    "description": "A C-compatible bitmask flags interface, with a subset of nim set functionality",
+    "license": "MIT",
+    "web": "https://github.com/MCRusher/cflags",
+    "doc": "https://mcrusher.github.io/cflags/cflags.html"
+  },
+  {
+    "name": "propositionalLogic",
+    "url": "https://github.com/Azumabashi/nim-propositional-logic/",
+    "method": "git",
+    "tags": [
+      "logic"
+    ],
+    "description": "A library for (standard) propositional logic",
+    "license": "MIT",
+    "web": "https://github.com/Azumabashi/nim-propositional-logic/"
+  },
+  {
+    "name": "stack_strings",
+    "url": "https://github.com/termermc/nim-stack-strings/",
+    "method": "git",
+    "tags": [
+      "stack",
+      "zero-allocation",
+      "string",
+      "openArray"
+    ],
+    "description": "Library for guaranteed zero heap allocation strings ",
+    "license": "MIT",
+    "web": "https://github.com/termermc/nim-stack-strings/",
+    "doc": "https://docs.termer.net/nim/stack_strings/"
+  },
+  {
+    "name": "getpodia",
+    "url": "https://github.com/thisago/getpodia",
+    "method": "git",
+    "tags": [
+      "scraper",
+      "podia",
+      "library"
+    ],
+    "description": "Extract Podia sites courses data",
+    "license": "GPL-3",
+    "web": "https://github.com/thisago/getpodia"
+  },
+  {
+    "name": "websitegenerator",
+    "url": "https://github.com/nirokay/websitegenerator",
+    "method": "git",
+    "tags": [
+      "html",
+      "css",
+      "website",
+      "generator",
+      "library"
+    ],
+    "description": "Static html and css generator.",
+    "license": "GPL-3.0-only",
+    "web": "https://github.com/nirokay/websitegenerator",
+    "doc": "https://nirokay.github.io/nim-docs/websitegenerator/websitegenerator.html"
+  },
+  {
+    "name": "reed_solomon",
+    "url": "https://github.com/lscrd/Reed-Solomon",
+    "method": "git",
+    "tags": [
+      "library",
+      "Reed-Solomon"
+    ],
+    "description": "Library to encode and decode data using Reed-Solomon correction codes.",
+    "license": "MIT",
+    "web": "https://github.com/lscrd/Reed-Solomon"
+  },
+  {
+    "name": "cligpt",
+    "url": "https://github.com/thisago/cligpt",
+    "method": "git",
+    "tags": [
+      "cli",
+      "chatgpt",
+      "ai",
+      "chat",
+      "app"
+    ],
+    "description": "Command line interface for ChatGPT",
+    "license": "GPL-3.0",
+    "web": "https://github.com/thisago/cligpt"
+  },
+  {
+    "name": "dirtygpt",
+    "url": "https://github.com/thisago/dirtygpt",
+    "method": "git",
+    "tags": [
+      "chatgpt",
+      "gpt",
+      "ai",
+      "lib",
+      "free",
+      "prompt",
+      "userscript"
+    ],
+    "description": "A dirty and free way to use ChatGPT in Nim",
+    "license": "MIT",
+    "web": "https://github.com/thisago/dirtygpt"
+  },
+  {
+    "name": "bc_webservices",
+    "url": "https://codeberg.org/pswilde/bc_webservices",
+    "method": "git",
+    "tags": [
+      "library",
+      "Business Central",
+      "Microsoft Dynamics 365",
+      "OData",
+      "REST API"
+    ],
+    "description": "Library to authenticate and make requests to Microsoft Dynamics 365 Business Central web services",
+    "license": "GPL-3.0-only",
+    "web": "https://codeberg.org/pswilde/bc_webservices"
+  },
+  {
+    "name": "knot",
+    "url": "https://github.com/metagn/knot",
+    "method": "git",
+    "tags": [
+      "macro",
+      "namespace",
+      "trait"
+    ],
+    "description": "tie compile-time values to types under names",
+    "license": "MIT",
+    "web": "https://github.com/metagn/knot"
+  },
+  {
+    "name": "spread",
+    "url": "https://github.com/metagn/spread",
+    "method": "git",
+    "tags": [
+      "macro",
+      "sugar",
+      "syntax",
+      "argument"
+    ],
+    "description": "macro for spreading blocks into call parameters/collections ",
+    "license": "MIT",
+    "web": "https://github.com/metagn/spread"
+  },
+  {
+    "name": "shopifyextractor",
+    "url": "https://github.com/thisago/shopifyextractor",
+    "method": "git",
+    "tags": [
+      "shopify",
+      "extractor",
+      "library",
+      "scraper"
+    ],
+    "description": "Shopify ecommerces data in a instant",
+    "license": "GPL-3.0-only",
+    "web": "https://github.com/thisago/shopifyextractor"
+  },
+  {
+    "name": "saucenao-nim",
+    "url": "https://github.com/filvyb/saucenao-nim",
+    "method": "git",
+    "tags": [
+      "async",
+      "api",
+      "wrapper",
+      "SauceNAO"
+    ],
+    "description": "Asynchronous Nim wrapper for SauceNAO's API",
+    "license": "LGPL-3.0-or-later",
+    "web": "https://github.com/filvyb/saucenao-nim"
+  },
+  {
+    "name": "forge",
+    "url": "https://github.com/daylinmorgan/forge",
+    "method": "git",
+    "tags": [
+      "compilation",
+      "compile",
+      "cross-compile",
+      "cli",
+      "zig"
+    ],
+    "description": "basic toolchain to forge (cross-compile) your multi-platform nim binaries",
+    "license": "MIT",
+    "web": "https://github.com/daylinmorgan/forge"
+  },
+  {
+    "name": "unicody",
+    "url": "https://github.com/guzba/unicody",
+    "method": "git",
+    "tags": [
+      "utf8",
+      "utf-8",
+      "unicode"
+    ],
+    "description": "An alternative / companion to std/unicode",
+    "license": "MIT",
+    "web": "https://github.com/guzba/unicody"
+  },
+  {
+    "name": "stdx",
+    "url": "https://github.com/jjv360/nim-stdx",
+    "method": "git",
+    "tags": [
+      "std",
+      "standard",
+      "lib",
+      "library",
+      "extras",
+      "stdx"
+    ],
+    "description": "A collection of extra utilities for Nim.",
+    "license": "MIT",
+    "web": "https://github.com/jjv360/nim-stdx"
+  },
+  {
+    "name": "zuhyo",
+    "url": "https://github.com/arashi-software/zuhyo",
+    "method": "git",
+    "tags": [
+      "graphql",
+      "api",
+      "web",
+      "library",
+      "helper",
+      "gql"
+    ],
+    "description": "The easiest way to interact with a graphql api",
+    "license": "LGPL-3.0-or-later",
+    "web": "https://github.com/arashi-software/zuhyo"
+  },
+  {
+    "name": "nimbooru",
+    "url": "https://github.com/filvyb/nimbooru",
+    "method": "git",
+    "tags": [
+      "api",
+      "async",
+      "wrapper",
+      "booru",
+      "gelbooru"
+    ],
+    "description": "Basic wrapper for APIs of various Boorus",
+    "license": "LGPL-3.0-or-later",
+    "web": "https://github.com/filvyb/nimbooru"
+  },
+  {
+    "name": "getprime",
+    "url": "https://github.com/xjzh123/getprime",
+    "method": "git",
+    "tags": [
+      "math",
+      "prime numbers",
+      "random"
+    ],
+    "description": "Generate random prime numbers, and do prime number tests. Note: don't support prime numbers larger than approximately 3037000499 (sqrt(int.high)).",
+    "license": "MIT",
+    "web": "https://github.com/xjzh123/getprime"
+  },
+  {
+    "name": "chalk",
+    "url": "https://github.com/crashappsec/chalk",
+    "method": "git",
+    "tags": [
+      "observability",
+      "security",
+      "docker",
+      "sbom"
+    ],
+    "description": "Software artifact metadata to make it easy to tie deployments to source code and collect metadata.",
+    "license": "GPLv3",
+    "web": "https://github.com/crashappsec/chalk"
+  },
+  {
+    "name": "fedi_auth",
+    "url": "https://codeberg.org/pswilde/fedi_auth",
+    "method": "git",
+    "tags": [
+      "library",
+      "fediverse",
+      "mastodon",
+      "gotosocial",
+      "pleroma",
+      "mastoapi"
+    ],
+    "description": "A basic library to authenticate to fediverse instances",
+    "license": "GPLv3",
+    "web": "https://codeberg.org/pswilde/fedi_auth"
+  },
+  {
+    "name": "gts_emoji_importer",
+    "url": "https://codeberg.org/pswilde/gts_emoji_importer",
+    "method": "git",
+    "tags": [
+      "library",
+      "emojis",
+      "fediverse",
+      "gotosocial"
+    ],
+    "description": "A tool for admins to import custom emojis into GoToSocial",
+    "license": "GPLv3",
+    "web": "https://codeberg.org/pswilde/gts_emoji_importer"
+  },
+  {
+    "name": "unifetch",
+    "url": "https://github.com/thisago/unifetch",
+    "method": "git",
+    "tags": [
+      "library",
+      "web",
+      "multi-backend",
+      "seamless",
+      "fetch",
+      "httpclient"
+    ],
+    "description": "Multi backend HTTP fetching",
+    "license": "MIT",
+    "web": "https://github.com/thisago/unifetch"
+  },
+  {
+    "name": "sigui",
+    "url": "https://github.com/levovix0/sigui",
+    "method": "git",
+    "tags": [
+      "ui",
+      "gui",
+      "opengl",
+      "siwin"
+    ],
+    "description": "Easy to use and flexible UI framework in pure Nim",
+    "license": "MIT",
+    "web": "https://github.com/levovix0/sigui"
+  },
+  {
+    "name": "webidl2nim",
+    "url": "https://github.com/ASVIEST/webidl2nim",
+    "method": "git",
+    "tags": [
+      "web",
+      "webidl",
+      "js",
+      "javascript",
+      "tool"
+    ],
+    "description": "webidl to Nim bindings generator",
+    "license": "MIT",
+    "web": "https://github.com/ASVIEST/webidl2nim"
+  },
+  {
+    "name": "nimzip",
+    "url": "https://github.com/thechampagne/nimzip",
+    "method": "git",
+    "tags": [
+      "zip",
+      "binding"
+    ],
+    "description": "Binding for a portable, simple zip library",
+    "license": "MIT",
+    "web": "https://github.com/thechampagne/nimzip"
+  },
+  {
+    "name": "bz",
+    "url": "https://github.com/pcarrier/bz",
+    "method": "git",
+    "tags": [
+      "unix",
+      "cli",
+      "utils"
+    ],
+    "description": "A few CLI utilities",
+    "license": "0BSD",
+    "web": "https://github.com/pcarrier/bz"
+  },
+  {
+    "name": "hyprland_ipc",
+    "url": "https://github.com/xTrayambak/hyprland_ipc",
+    "method": "git",
+    "tags": [
+      "ipc",
+      "hyprland",
+      "library"
+    ],
+    "description": "An unofficial wrapper to Hyprland's IPC layer",
+    "license": "GPLv3",
+    "web": "https://github.com/xTrayambak/hyprland_ipc"
+  },
+  {
+    "name": "gemmaJSON",
+    "url": "https://github.com/sainttttt/gemmaJSON",
+    "method": "git",
+    "tags": [
+      "simd",
+      "json",
+      "parser",
+      "wrapper"
+    ],
+    "description": "json parsing library based on bindings of simdjson",
+    "license": "MIT",
+    "web": "https://github.com/sainttttt/gemmaJSON"
+  },
+  {
+    "name": "fftr",
+    "url": "https://github.com/arnetheduck/nim-fftr",
+    "method": "git",
+    "tags": [
+      "fft",
+      "dft"
+    ],
+    "description": "The fastest Fourier transform in the Rhein (so far)",
+    "license": "MIT",
+    "web": "https://github.com/arnetheduck/nim-fftr"
+  },
+  {
+    "name": "clim",
+    "url": "https://github.com/xjzh123/clim",
+    "method": "git",
+    "tags": [
+      "cli",
+      "macros"
+    ],
+    "description": "Yet another CLI option parser generator for Nim.",
+    "license": "MIT",
+    "web": "https://github.com/xjzh123/clim"
+  },
+  {
+    "name": "htmlparser",
+    "url": "https://github.com/nim-lang/htmlparser",
+    "method": "git",
+    "tags": [
+      "parser",
+      "HTML",
+      "official",
+      "web",
+      "library"
+    ],
+    "description": "Parse a HTML document in Nim.",
+    "license": "MIT",
+    "web": "https://github.com/nim-lang/htmlparser"
+  },
+  {
+    "name": "stackclosures",
+    "url": "https://github.com/guibar64/stackclosures",
+    "method": "git",
+    "tags": [
+      "closures",
+      "optimization"
+    ],
+    "description": "Allocate closures on stack",
+    "license": "MIT",
+    "web": "https://github.com/guibar64/stackclosures"
+  },
+  {
+    "name": "astiife",
+    "url": "https://github.com/xjzh123/astiife",
+    "method": "git",
+    "tags": [
+      "macros"
+    ],
+    "description": "AST IIFE for nim. Generate code with AST.",
+    "license": "MIT",
+    "web": "https://github.com/xjzh123/astiife"
+  },
+  {
+    "name": "noxen",
+    "url": "https://github.com/ptVoid/noxen",
+    "method": "git",
+    "tags": [
+      "libary",
+      "terminal",
+      "boxes",
+      "windows",
+      "terminal-boxes",
+      "terminal-windows",
+      "nim-boxen",
+      "boxen"
+    ],
+    "description": "highly customizable terminal boxes for nim!",
+    "license": "MIT",
+    "web": "https://github.com/ptVoid/noxen"
+  },
+  {
+    "name": "cap10",
+    "url": "https://github.com/crashappsec/cap10",
+    "method": "git",
+    "tags": [
+      "terminal",
+      "expect",
+      "pty",
+      "capture",
+      "replay"
+    ],
+    "description": "A tool to capture and replay command line terminal sessions",
+    "license": "Apache-2.0",
+    "web": "https://github.com/crashappsec/cap10"
+  },
+  {
+    "name": "docchanger",
+    "url": "https://github.com/nirokay/docchanger",
+    "method": "git",
+    "tags": [
+      "document-changer",
+      "document-generator",
+      "document-generation",
+      "docx",
+      "docx-files",
+      "binary"
+    ],
+    "description": "Replaces substrings in .docx files with data, that is parsed from a json config file.",
+    "license": "GPL-3.0-only",
+    "web": "https://github.com/nirokay/docchanger",
+    "doc": "https://nirokay.github.io/nim-docs/docchanger/docchanger"
+  },
+  {
+    "name": "threadlogging",
+    "url": "https://codeberg.org/pswilde/threadlogging",
+    "method": "git",
+    "tags": [
+      "logging",
+      "threads"
+    ],
+    "description": "A thread safe logging library using Nim's own logging module",
+    "license": "AGPL-3.0-or-later",
+    "web": "https://pswilde.codeberg.page/threadlogging_docs/threadlogging.html"
+  },
+  {
+    "name": "paint",
+    "url": "https://github.com/pNeal0/paint",
+    "method": "git",
+    "tags": [
+      "color",
+      "library",
+      "command-line",
+      "rgb",
+      "terminal",
+      "text",
+      "colorize"
+    ],
+    "description": "Colorize strings in a simple and clean way",
+    "license": "MIT",
+    "web": "https://github.com/pNeal0/paint"
+  },
+  {
+    "name": "webpage_extractors",
+    "url": "https://github.com/bung87/webpage_extractors",
+    "method": "git",
+    "tags": [
+      "web",
+      "page",
+      "html",
+      "content",
+      "extractors"
+    ],
+    "description": "webpage information extractor",
+    "license": "MIT",
+    "web": "https://github.com/bung87/webpage_extractors"
+  },
+  {
+    "name": "niMIDI",
+    "url": "https://github.com/Mycsina/NiMIDI",
+    "method": "git",
+    "tags": [
+      "MIDI",
+      "parser",
+      "writer",
+      "library"
+    ],
+    "description": "MIDI file parser in Nim, for Nim",
+    "license": "MIT",
+    "web": "https://github.com/Mycsina/NiMIDI"
+  },
+  {
+    "name": "yahttp",
+    "url": "https://github.com/mishankov/yahttp",
+    "method": "git",
+    "tags": [
+      "http",
+      "http-client",
+      "ssl"
+    ],
+    "description": "Awesome simple HTTP client for Nim",
+    "license": "MIT",
+    "web": "https://github.com/mishankov/yahttp?tab=readme-ov-file#-yahttp---awesome-simple-http-client-for-nim"
+  },
+  {
+    "name": "nimpk",
+    "url": "https://github.com/khchen/nimpk",
+    "method": "git",
+    "tags": [
+      "pocketlang",
+      "script",
+      "scripting",
+      "programming",
+      "language"
+    ],
+    "description": "PocketLang binding for Nim",
+    "license": "MIT",
+    "web": "https://github.com/khchen/nimpk"
+  },
+  {
+    "name": "gura",
+    "url": "https://github.com/khchen/gura",
+    "method": "git",
+    "tags": [
+      "configuration",
+      "serialization",
+      "parsing",
+      "toml",
+      "yaml"
+    ],
+    "description": "Gura Configuration Language for Nim",
+    "license": "MIT",
+    "web": "https://github.com/khchen/gura"
+  },
+  {
+    "name": "num_crunch",
+    "url": "https://github.com/willi-kappler/num_crunch",
+    "method": "git",
+    "tags": [
+      "hpc",
+      "distributed",
+      "computation",
+      "number crunching"
+    ],
+    "description": "Allows to write distributed programs for number crunching easily.",
+    "license": "MIT",
+    "web": "https://github.com/willi-kappler/num_crunch"
+  },
+  {
+    "name": "jacket",
+    "url": "https://github.com/SpotlightKid/jacket",
+    "method": "git",
+    "tags": [
+      "audio",
+      "midi",
+      "jack",
+      "library",
+      "wrapper"
+    ],
+    "description": "A Nim wrapper for the JACK client-side C API aka libjack",
+    "license": "MIT",
+    "web": "https://github.com/SpotlightKid/jacket"
+  },
+  {
+    "name": "wasmrt",
+    "url": "https://github.com/yglukhov/wasmrt",
+    "method": "git",
+    "tags": [
+      "wasm",
+      "webassembly"
+    ],
+    "description": "Nim wasm runtime",
+    "license": "MIT",
+    "web": "https://github.com/yglukhov/wasmrt"
+  },
+  {
+    "name": "yasync",
+    "url": "https://github.com/yglukhov/yasync",
+    "method": "git",
+    "tags": [
+      "async",
+      "futures"
+    ],
+    "description": "Yet another async/await for Nim",
+    "license": "MIT",
+    "web": "https://github.com/yglukhov/yasync"
+  },
+  {
+    "name": "iniplus",
+    "url": "https://github.com/systemonia/iniplus",
+    "method": "git",
+    "tags": [
+      "ini",
+      "config",
+      "parser",
+      "extended",
+      "library"
+    ],
+    "description": "An extended INI parser for Nim.",
+    "license": "BSD-3-Clause",
+    "web": "https://github.com/systemonia/iniplus"
+  },
+  {
+    "name": "pathutils",
+    "url": "https://github.com/hmbemba/pathutils",
+    "method": "git",
+    "tags": [
+      "utils",
+      "paths",
+      "helper"
+    ],
+    "description": "Utilities for handling paths",
+    "license": "MIT",
+    "web": "https://github.com/hmbemba/pathutils"
+  },
+  {
+    "name": "sqids",
+    "url": "https://github.com/sqids/sqids-nim",
+    "method": "git",
+    "tags": [
+      "library",
+      "ids",
+      "id",
+      "sqids"
+    ],
+    "description": "Official Nim port of Sqids. Generate short YouTube-looking IDs from numbers.",
+    "license": "MIT",
+    "web": "https://github.com/sqids/sqids-nim"
+  },
+  {
+    "name": "dlutils",
+    "url": "https://github.com/amnr/dlutils",
+    "method": "git",
+    "tags": [
+      "shared",
+      "library",
+      "helper",
+      "wrapper"
+    ],
+    "description": "Nim package for easy shared library loading.",
+    "license": "NCSA",
+    "web": "https://github.com/amnr/dlutils"
+  },
+  {
+    "name": "whisper",
+    "url": "https://github.com/maleyva1/whisper",
+    "method": "git",
+    "tags": [
+      "bindings",
+      "whisper.cpp"
+    ],
+    "description": "Bindings for Whisper.cpp",
+    "license": "MIT",
+    "web": "https://github.com/maleyva1/whisper"
+  },
+  {
+    "name": "moveiterators",
+    "url": "https://github.com/sls1005/moveiterators",
+    "method": "git",
+    "tags": [
+      "iterator"
+    ],
+    "description": "Special iterators that use move semantics",
+    "license": "MIT",
+    "web": "https://github.com/sls1005/moveiterators"
+  },
+  {
+    "name": "happyx-native",
+    "url": "https://github.com/HapticX/happyx-native",
+    "method": "git",
+    "tags": [
+      "happyx",
+      "native",
+      "web",
+      "app",
+      "framework",
+      "frontend",
+      "backend",
+      "android"
+    ],
+    "description": "Macro-oriented web-framework compiles to native written with ♥",
+    "license": "MIT",
+    "web": "https://github.com/HapticX/happyx-native"
+  },
+  {
+    "name": "note",
+    "url": "https://codeberg.org/pswilde/note",
+    "method": "git",
+    "tags": [
+      "pastebin",
+      "scratchpad",
+      "web",
+      "frontend"
+    ],
+    "description": "A simple pastebin, inspired by w4/bin",
+    "license": "AGPL-3.0-or-later",
+    "web": "https://codeberg.org/pswilde/note"
+  },
+  {
+    "name": "ccal",
+    "url": "https://github.com/inv2004/ccal",
+    "method": "git",
+    "tags": [
+      "cli",
+      "calendar",
+      "tools",
+      "productivity"
+    ],
+    "description": "calendar with local holidays via ip location",
+    "license": "MIT",
+    "web": "https://github.com/inv2004/ccal"
+  },
+  {
+    "name": "implot",
+    "url": "https://github.com/dinau/nim_implot",
+    "method": "git",
+    "tags": [
+      "imgui",
+      "nimgl",
+      "implot",
+      "plot",
+      "gui",
+      "graph",
+      "glfw",
+      "opengl",
+      "cimgui"
+    ],
+    "description": "Nim binding for ImPlot (CImPlot/ImGui/CImGui)",
+    "license": "MIT License",
+    "web": "https://github.com/dinau/nim_implot"
+  },
+  {
+    "name": "nph",
+    "url": "https://github.com/arnetheduck/nph",
+    "method": "git",
+    "tags": [
+      "nim",
+      "formatter",
+      "vscode"
+    ],
+    "description": "Opinionated code formatter",
+    "license": "MIT License",
+    "web": "https://github.com/arnetheduck/nph"
+  },
+  {
+    "name": "icecream",
+    "url": "https://github.com/hmbemba/icecream",
+    "method": "git",
+    "tags": [
+      "print",
+      "icecream",
+      "ic",
+      "echo"
+    ],
+    "description": "nim port of the icecream python library",
+    "license": "MIT",
+    "web": "https://github.com/hmbemba/icecream"
+  },
+  {
+    "name": "threadButler",
+    "url": "https://github.com/PhilippMDoerner/Appster",
+    "method": "git",
+    "tags": [
+      "channels",
+      "multithreading",
+      "parallelism",
+      "message-passing",
+      "client-server",
+      "library",
+      "alpha"
+    ],
+    "description": "Use threads as if they were servers/microservices to enable multi-threading with a simple mental model.",
+    "license": "MIT",
+    "web": "https://github.com/PhilippMDoerner/Appster"
+  },
+  {
+    "name": "ipacore",
+    "url": "https://github.com/phononim/ipacore",
+    "method": "git",
+    "tags": [
+      "ipa",
+      "library",
+      "core",
+      "phonology"
+    ],
+    "description": " A base International Phonetic Alphabet type definition. ",
+    "license": "BSD-3-Clause",
+    "web": "https://github.com/phononim/ipacore"
+  },
+  {
+    "name": "bight",
+    "url": "https://github.com/auxym/bight",
+    "method": "git",
+    "tags": [
+      "endianness",
+      "bytes",
+      "serialize",
+      "serialization",
+      "deserialize",
+      "deserialization"
+    ],
+    "description": "Byte-ordering operations with a simple read/write API.",
+    "license": "MIT",
+    "web": "https://github.com/auxym/bight",
+    "doc": "https://auxym.github.io/bight/bight.html"
+  },
+  {
+    "name": "nsdl1",
+    "url": "https://github.com/amnr/nsdl1",
+    "method": "git",
+    "tags": [
+      "sdl",
+      "library",
+      "wrapper",
+      "gui",
+      "graphics",
+      "audio",
+      "video"
+    ],
+    "description": "High level SDL 1.2 shared library wrapper",
+    "license": "NCSA",
+    "web": "https://github.com/amnr/nsdl1"
+  },
+  {
+    "name": "highlightjs",
+    "url": "https://github.com/Ethosa/highlightjs",
+    "method": "git",
+    "tags": [
+      "highlight.js",
+      "highlight",
+      "javascript",
+      "frontend",
+      "web",
+      "bindings"
+    ],
+    "description": "highlight.js bindings for Nim",
+    "license": "MIT",
+    "web": "https://github.com/Ethosa/highlightjs"
+  },
+  {
+    "name": "tailwindcss",
+    "url": "https://github.com/Ethosa/tailwindcss-nim",
+    "method": "git",
+    "tags": [
+      "web",
+      "frontend",
+      "tailwindcss",
+      "tailwind",
+      "javascript",
+      "bindings"
+    ],
+    "description": "Tailwind CSS bindings for Nim",
+    "license": "MIT",
+    "web": "https://github.com/Ethosa/tailwindcss-nim"
+  },
+  {
+    "name": "mummy_utils",
+    "url": "https://github.com/ThomasTJdev/mummy_utils",
+    "method": "git",
+    "tags": [
+      "mummy",
+      "web",
+      "server"
+    ],
+    "description": "Utility package for mummy multithreaded server",
+    "license": "MIT",
+    "web": "https://github.com/ThomasTJdev/mummy_utils"
+  },
+  {
+    "name": "httpbeastfork",
+    "url": "https://github.com/ThomasTJdev/httpbeast_fork",
+    "method": "git",
+    "tags": [
+      "http",
+      "server",
+      "parallel"
+    ],
+    "description": "Fork of httpbeast with Nim v2.x support",
+    "license": "MIT",
+    "web": "https://github.com/ThomasTJdev/httpbeast_fork"
+  },
+  {
+    "name": "jesterfork",
+    "url": "https://github.com/ThomasTJdev/jester_fork",
+    "method": "git",
+    "tags": [
+      "web",
+      "http",
+      "jester"
+    ],
+    "description": "Fork of jester with Nim v2.x support",
+    "license": "MIT",
+    "web": "https://github.com/ThomasTJdev/jester_fork"
+  },
+  {
+    "name": "templater",
+    "url": "https://github.com/Wraith29/templater",
+    "method": "git",
+    "tags": [
+      "web",
+      "template engines"
+    ],
+    "description": "HTML Template Engine",
+    "license": "MIT",
+    "doc": "https://wraith29.github.io/templater/templater.html"
+  },
+  {
+    "name": "nsdl3",
+    "url": "https://github.com/amnr/nsdl3",
+    "method": "git",
+    "tags": [
+      "sdl",
+      "sdl3",
+      "library",
+      "wrapper",
+      "gui",
+      "graphics",
+      "audio",
+      "video"
+    ],
+    "description": "High level SDL 3.0 shared library wrapper",
+    "license": "NCSA OR MIT OR Zlib",
+    "web": "https://github.com/amnr/nsdl3"
+  },
+  {
+    "name": "nsdl2",
+    "url": "https://github.com/amnr/nsdl2",
+    "method": "git",
+    "tags": [
+      "sdl",
+      "sdl2",
+      "library",
+      "wrapper",
+      "gui",
+      "graphics",
+      "audio",
+      "video"
+    ],
+    "description": "High level SDL 2.0 shared library wrapper",
+    "license": "NCSA OR MIT OR Zlib",
+    "web": "https://github.com/amnr/nsdl2"
+  },
+  {
+    "name": "getopty",
+    "url": "https://github.com/amnr/getopty",
+    "method": "git",
+    "tags": [
+      "posix",
+      "cli",
+      "getopt",
+      "parser"
+    ],
+    "description": "POSIX compliant command line parser",
+    "license": "MIT or NCSA",
+    "web": "https://github.com/amnr/getopty"
+  },
+  {
+    "name": "awsSigV4",
+    "url": "https://github.com/ThomasTJdev/nim_awsSigV4",
+    "method": "git",
+    "tags": [
+      "aws",
+      "sigv4",
+      "signed",
+      "presigned"
+    ],
+    "description": "Simple package for creating AWS Signature Version 4 (SigV4)",
+    "license": "MIT",
+    "web": "https://github.com/ThomasTJdev/nim_awsSigV4"
+  },
+  {
+    "name": "vier",
+    "url": "https://git.sr.ht/~xigoi/vier",
+    "method": "git",
+    "tags": [
+      "pixel",
+      "editor",
+      "modal"
+    ],
+    "description": "Vim-Inspired Editor of Rasters",
+    "license": "GPL-3.0-or-later",
+    "web": "https://xigoi.srht.site/vier/"
+  },
+  {
+    "name": "instagram",
+    "url": "https://github.com/thisago/instagram",
+    "method": "git",
+    "tags": [
+      "instagram",
+      "library",
+      "internal-api"
+    ],
+    "description": "Instagram internal web api implementation",
+    "license": "MIT",
+    "web": "https://github.com/thisago/instagram"
+  },
+  {
+    "name": "cppconst",
+    "url": "https://github.com/sls1005/nim-cppconst",
+    "method": "git",
+    "tags": [
+      "cpp"
+    ],
+    "description": "Nim wrapper for C++ const-qualified types.",
+    "license": "MIT",
+    "web": "https://github.com/sls1005/nim-cppconst"
+  },
+  {
+    "name": "dither",
+    "url": "https://github.com/Nycto/dither-nim",
+    "method": "git",
+    "tags": [
+      "dither",
+      "graphics"
+    ],
+    "description": "Dithering algorithms in Nim",
+    "license": "Apache-2.0",
+    "web": "https://github.com/Nycto/dither-nim"
+  },
+  {
+    "name": "traitor",
+    "url": "https://github.com/beef331/traitor",
+    "method": "git",
+    "tags": [
+      "trait",
+      "interfaces",
+      "vtable"
+    ],
+    "description": "Trait-like package made without insight",
+    "license": "MIT",
+    "web": "https://github.com/beef331/traitor"
+  },
+  {
+    "name": "bttrwttrin",
+    "url": "https://github.com/nirokay/bttrwttrin",
+    "method": "git",
+    "tags": [
+      "weather",
+      "weather-api",
+      "wttrin",
+      "library"
+    ],
+    "description": "Nim library to fetch weather using wttr.in",
+    "license": "GPL-3.0-or-later",
+    "web": "https://github.com/nirokay/bttrwttrin",
+    "doc": "https://nirokay.github.io/nim-docs/bttrwttrin/bttrwttrin.html"
+  },
+  {
+    "name": "serde",
+    "url": "https://github.com/codex-storage/nim-json",
+    "method": "git",
+    "tags": [
+      "library",
+      "serialization",
+      "json"
+    ],
+    "description": "Easy-to-use serialization capabilities (currently json only), with a drop-in replacement for std/json.",
+    "license": "MIT",
+    "web": "https://github.com/codex-storage/nim-json"
+  },
+  {
+    "name": "statsdaemon",
+    "url": "https://github.com/Q-Master/statsdaemon.nim",
+    "method": "git",
+    "tags": [
+      "bin",
+      "statsd",
+      "native"
+    ],
+    "description": "StatsD compatible daemon in pure Nim",
+    "license": "MIT",
+    "web": "https://github.com/Q-Master/statsdaemon.nim"
+  },
+  {
+    "name": "amqpstats",
+    "url": "https://github.com/Q-Master/amqp-stats.nim",
+    "method": "git",
+    "tags": [
+      "library",
+      "pure",
+      "rabbitmq",
+      "async",
+      "sync"
+    ],
+    "description": "Pure Nim library to read AMQP stats via management plugin API",
+    "license": "MIT",
+    "web": "https://github.com/Q-Master/amqp-stats.nim"
+  },
+  {
+    "name": "nimAdif",
+    "url": "https://github.com/clzls/nimAdif",
+    "method": "git",
+    "tags": [
+      "ham",
+      "adif",
+      "parser",
+      "formatter"
+    ],
+    "description": "An Amateur Data Interchange Format (ADIF) formatter and parser.",
+    "license": "MIT",
+    "web": "https://github.com/clzls/nimAdif"
+  },
+  {
+    "name": "selfpipe",
+    "url": "https://github.com/tdely/selfpipe",
+    "method": "git",
+    "tags": [
+      "signal",
+      "signalhandling"
+    ],
+    "description": "Easy safe signal handling",
+    "license": "MIT",
+    "web": "https://github.com/tdely/selfpipe"
+  },
+  {
+    "name": "simplestatsdclient",
+    "url": "https://github.com/Q-Master/statsdclient.nim",
+    "method": "git",
+    "tags": [
+      "statsd",
+      "client",
+      "library",
+      "sync",
+      "async"
+    ],
+    "description": "Pure nim interface library to send data to any StatsD compatible daemon",
+    "license": "MIT",
+    "web": "https://github.com/Q-Master/statsdclient.nim"
+  },
+  {
+    "name": "sunny",
+    "url": "https://github.com/guzba/sunny",
+    "method": "git",
+    "tags": [
+      "json"
+    ],
+    "description": "JSON in Nim with Go-like field tags",
+    "license": "MIT",
+    "web": "https://github.com/guzba/sunny"
+  },
+  {
+    "name": "rmq_statsd",
+    "url": "https://github.com/Q-Master/rmq-statsd.nim",
+    "method": "git",
+    "tags": [
+      "rabbitmq",
+      "statsd",
+      "metrics"
+    ],
+    "description": "Pure nim rabbitmq to statsd metrics pusher",
+    "license": "MIT",
+    "web": "https://github.com/Q-Master/rmq-statsd.nim"
+  },
+  {
+    "name": "caprese",
+    "url": "https://github.com/zenywallet/caprese",
+    "method": "git",
+    "tags": [
+      "web",
+      "http",
+      "https",
+      "ssl",
+      "tls",
+      "websocket",
+      "proxy",
+      "framework"
+    ],
+    "description": "A front-end web server specialized for real-time message exchange",
+    "license": "MIT",
+    "web": "https://github.com/zenywallet/caprese"
+  },
+  {
+    "name": "pon2",
+    "url": "https://github.com/izumiya-keisuke/pon2",
+    "method": "git",
+    "tags": [
+      "puyopuyo",
+      "nazopuyo"
+    ],
+    "description": "Puyo Puyo and Nazo Puyo Application",
+    "license": "Apache-2.0",
+    "web": "https://github.com/izumiya-keisuke/pon2"
+  },
+  {
+    "name": "sat",
+    "url": "https://github.com/nim-lang/sat",
+    "method": "git",
+    "tags": [
+      "sat",
+      "official",
+      "solver"
+    ],
+    "description": "A SAT solver written in Nim.",
+    "license": "MIT",
+    "web": "https://github.com/nim-lang/sat"
+  },
+  {
+    "name": "nginwho",
+    "url": "https://github.com/pouriyajamshidi/nginwho",
+    "method": "git",
+    "tags": [
+      "nginx",
+      "linux",
+      "nginx log parser"
+    ],
+    "description": "A lightweight and extremely fast nginx log parser that stores the result into a sqlite3 database for further analysis and action",
+    "license": "MIT",
+    "web": "https://github.com/pouriyajamshidi/nginwho"
+  },
+  {
+    "name": "umriss",
+    "url": "https://github.com/tdely/umriss",
+    "method": "git",
+    "tags": [
+      "cli",
+      "syscalls",
+      "tool",
+      "seccomp",
+      "strace"
+    ],
+    "description": "Extract syscall stats from strace output files",
+    "license": "MIT",
+    "web": "https://github.com/tdely/umriss"
+  },
+  {
+    "name": "impulse",
+    "url": "https://github.com/SciNim/impulse",
+    "method": "git",
+    "tags": [
+      "signals",
+      "signal processing",
+      "FFT",
+      "PocketFFT",
+      "science"
+    ],
+    "description": "Signal processing primitives (FFT, ...) ",
+    "license": "MIT",
+    "web": "https://github.com/SciNim/impulse"
+  },
+  {
+    "name": "xrayAttenuation",
+    "url": "https://github.com/SciNim/xrayAttenuation",
+    "method": "git",
+    "tags": [
+      "xrays",
+      "xray interactions",
+      "reflection",
+      "transmission",
+      "attenuation",
+      "xray optics",
+      "multilayers",
+      "science"
+    ],
+    "description": "Library for X-ray reflectivity and transmission / absorption through matter",
+    "license": "MIT",
+    "web": "https://github.com/SciNim/xrayAttenuation"
+  },
+  {
+    "name": "orgtables",
+    "url": "https://github.com/Vindaar/orgtables",
+    "method": "git",
+    "tags": [
+      "org",
+      "org mode",
+      "tables",
+      "emacs"
+    ],
+    "description": "A library to turn Nim data into Org tables",
+    "license": "MIT",
+    "web": "https://github.com/Vindaar/orgtables"
+  },
+  {
+    "name": "flatBuffers",
+    "url": "https://github.com/Vindaar/flatBuffers",
+    "method": "git",
+    "tags": [
+      "buffers",
+      "serialization",
+      "pickle"
+    ],
+    "description": "Package to turn (nested) Nim objects to flat buffers and back.",
+    "license": "MIT",
+    "web": "https://github.com/Vindaar/flatBuffers"
+  },
+  {
+    "name": "pnimrp",
+    "url": "https://github.com/bloomingchad/pnimrp",
+    "method": "git",
+    "tags": [
+      "radio",
+      "terminal",
+      "minimal",
+      "mpv",
+      "libmpv",
+      "nim-lang"
+    ],
+    "description": "simple terminal radio station player in nim making life easier",
+    "license": "GPL-3.0-or-later",
+    "web": "https://github.com/bloomingchad/pnimrp"
+  },
+  {
+    "name": "expect",
+    "url": "https://github.com/penguinite/expect",
+    "method": "git",
+    "tags": [
+      "rust",
+      "expect",
+      "basic"
+    ],
+    "description": "Rust-style expect procedures",
+    "license": "BSD-3-Clause",
+    "web": "https://github.com/penguinite/expect"
+  },
+  {
+    "name": "css3selectors",
+    "url": "https://github.com/Niminem/CSS3Selectors",
+    "method": "git",
+    "tags": [
+      "css3",
+      "css-selector",
+      "css-selectors",
+      "html-parser",
+      "htmlparser"
+    ],
+    "description": "A Nim CSS Selectors library for the WHATWG standard compliant Chame HTML parser. Query HTML using CSS selectors with Nim just like you can with JavaScript.",
+    "license": "MIT",
+    "web": "https://github.com/Niminem/CSS3Selectors"
+  },
+  {
+    "name": "nimjl",
+    "url": "https://github.com/SciNim/nimjl",
+    "method": "git",
+    "tags": [
+      "Julia",
+      "Nim",
+      "Bridge",
+      "SciNim",
+      "Scientific",
+      "Computing"
+    ],
+    "description": "Nim Julia bridge",
+    "license": "MIT",
+    "web": "https://github.com/SciNim/nimjl"
+  },
+  {
+    "name": "pmath",
+    "url": "https://github.com/nlits-projects/pmath",
+    "method": "git",
+    "tags": [
+      "math",
+      "fractions",
+      "radicals",
+      "precise"
+    ],
+    "description": "library that resolves the inaccuracies of normal float math. ",
+    "license": "MIT",
+    "web": "https://github.com/nlits-projects/pmath"
+  },
+  {
+    "name": "sweet",
+    "url": "https://github.com/FyraLabs/sweet",
+    "method": "git",
+    "tags": [
+      "sugar",
+      "macros",
+      "syntax",
+      "utility"
+    ],
+    "description": "🍬 General syntactic sugar",
+    "license": "MIT",
+    "web": "https://github.com/FyraLabs/sweet"
+  },
+  {
+    "name": "cdp",
+    "url": "https://github.com/Niminem/ChromeDevToolsProtocol",
+    "method": "git",
+    "tags": [
+      "cdp",
+      "chrome-devtools-protocol",
+      "chromedevtoolsprotocol",
+      "browser",
+      "browser-automation",
+      "web-scraper",
+      "spider"
+    ],
+    "description": "Low-level Nim wrapper for Chrome DevTools Protocol (CDP) v1.3 stable. Bend Chrome to your will with complete control over your browser. Scrape dynamic webpages, create browser automations, and beyond.",
+    "license": "MIT",
+    "web": "https://github.com/Niminem/ChromeDevToolsProtocol"
+  },
+  {
+    "name": "octolog",
+    "url": "https://github.com/jaar23/octolog",
+    "method": "git",
+    "tags": [
+      "std-logging",
+      "thread",
+      "multiple-thread",
+      "logging"
+    ],
+    "description": "octolog is a logging library built on top of std/logging for multi-threaded logging.",
+    "license": "GPL3",
+    "web": "https://github.com/jaar23/octolog",
+    "doc": "https://jaar23.github.io/octolog"
+  },
+  {
+    "name": "nimcls",
+    "url": "https://github.com/YaDev/NimCLS",
+    "method": "git",
+    "tags": [
+      "class",
+      "dependency-injection",
+      "oop",
+      "inheritance",
+      "object",
+      "di",
+      "method",
+      "singleton",
+      "inject"
+    ],
+    "description": "Classes and dependency injection for Nim.",
+    "license": "MIT",
+    "web": "https://github.com/YaDev/NimCLS"
+  },
+  {
+    "name": "stylus",
+    "url": "https://github.com/ferus-web/stylus",
+    "method": "git",
+    "tags": [
+      "css",
+      "parsing"
+    ],
+    "description": "A standards compliant CSS level 3 tokenizer and parser written in pure Nim",
+    "license": "MIT",
+    "web": "https://github.com/ferus-web/stylus"
+  },
+  {
+    "name": "mirage",
+    "url": "https://github.com/ferus-web/mirage",
+    "method": "git",
+    "tags": [
+      "interpreter",
+      "bytecode",
+      "code"
+    ],
+    "description": "A bytecode language generator and runtime",
+    "license": "MIT",
+    "web": "https://github.com/ferus-web/mirage"
+  },
+  {
+    "name": "ferusgfx",
+    "url": "https://github.com/ferus-web/ferusgfx",
+    "method": "git",
+    "tags": [
+      "graphics",
+      "gpu"
+    ],
+    "description": "A high-performance graphics renderer made for web engines",
+    "license": "MIT",
+    "web": "https://github.com/ferus-web/ferusgfx"
+  },
+  {
+    "name": "nimtcl",
+    "url": "https://github.com/neroist/nimtcl",
+    "method": "git",
+    "tags": [
+      "tcl",
+      "tk",
+      "wrapper",
+      "bindings",
+      "lang"
+    ],
+    "description": "Low-level Tcl & Tk bindings for Nim",
+    "license": "MIT",
+    "web": "https://github.com/neroist/nimtcl"
+  },
+  {
+    "name": "simpleMail",
+    "url": "https://github.com/up7down8/simpleMail",
+    "method": "git",
+    "tags": [
+      "smtp",
+      "mail"
+    ],
+    "description": "Make sending HTML and file emails easier.",
+    "license": "MIT",
+    "web": "https://github.com/up7down8/simpleMail"
+  },
+  {
+    "name": "asyncssh2",
+    "url": "https://github.com/up7down8/asyncssh2",
+    "method": "git",
+    "tags": [
+      "scp",
+      "ssh",
+      "sftp",
+      "asyncssh"
+    ],
+    "description": "Execute commands and upload/download files using multiple processes and asynchronous methods via SSH.",
+    "license": "MIT",
+    "web": "https://github.com/up7down8/asyncssh2"
+  },
+  {
+    "name": "rex",
+    "url": "https://github.com/minamorl/rex",
+    "method": "git",
+    "tags": [
+      "observable",
+      "observe",
+      "library",
+      "rx",
+      "reactive"
+    ],
+    "description": "Reactive programming, in nim",
+    "license": "MIT",
+    "web": "https://github.com/minamorl/rex"
+  },
+  {
+    "name": "dim",
+    "url": "https://github.com/lorenzoliuzzo/dim",
+    "method": "git",
+    "tags": [
+      "dimensional",
+      "analysis"
+    ],
+    "description": "Dimensional Analysis in Nim",
+    "license": "GPL-3.0-or-later",
+    "web": "https://github.com/lorenzoliuzzo/dim"
+  },
+  {
+    "name": "respite",
+    "url": "https://github.com/guzba/respite",
+    "method": "git",
+    "tags": [
+      "redis",
+      "resp",
+      "sqlite",
+      "sql",
+      "database",
+      "server"
+    ],
+    "description": "Redis protocol backed by SQLite",
+    "license": "MIT",
+    "web": "https://github.com/guzba/respite"
+  },
+  {
+    "name": "sudo",
+    "url": "https://github.com/FyraLabs/sudo.nim",
+    "method": "git",
+    "tags": [
+      "sudo",
+      "linux",
+      "unix"
+    ],
+    "description": "Detect if you are running as root, restart self with sudo if needed or setup uid zero when running with the SUID flag set.",
+    "license": "MIT",
+    "web": "https://github.com/FyraLabs/sudo.nim",
+    "doc": "https://fyralabs.github.io/sudo.nim/"
+  },
+  {
+    "name": "nimsrvstat",
+    "url": "https://github.com/Minejerik/nimsrvstat",
+    "method": "git",
+    "tags": [
+      "minecraft",
+      "api"
+    ],
+    "description": "A nim wrapper around mcsrvstat",
+    "license": "MIT",
+    "web": "https://github.com/Minejerik/nimsrvstat"
+  },
+  {
+    "name": "easter",
+    "url": "https://github.com/GeK2K/easter",
+    "method": "git",
+    "tags": [
+      "gregorian",
+      "easter"
+    ],
+    "description": "Easter date calculation engine.",
+    "license": "MIT",
+    "web": "https://github.com/GeK2K/easter"
+  },
+  {
+    "name": "happyx-ui",
+    "url": "https://github.com/HapticX/happyx-ui",
+    "method": "git",
+    "tags": [
+      "web",
+      "gui",
+      "ui",
+      "library",
+      "happyx",
+      "happyx-native"
+    ],
+    "description": "UI library for HappyX web framework",
+    "license": "MIT",
+    "web": "https://github.com/HapticX/happyx-ui"
+  },
+  {
+    "name": "dira",
+    "url": "https://github.com/tdely/dira",
+    "method": "git",
+    "tags": [
+      "git",
+      "profile",
+      "manager"
+    ],
+    "description": "git profile manager",
+    "license": "MIT",
+    "web": "https://github.com/tdely/dira"
+  },
+  {
+    "name": "nudates",
+    "url": "https://github.com/GeK2K/nudates",
+    "method": "git",
+    "tags": [
+      "dates"
+    ],
+    "description": "Some useful tools when working with dates.",
+    "license": "MIT",
+    "web": "https://github.com/GeK2K/nudates"
+  },
+  {
+    "name": "leveldbstatic",
+    "url": "https://github.com/codex-storage/nim-leveldb",
+    "method": "git",
+    "tags": [
+      "leveldb",
+      "library",
+      "wrapper",
+      "static",
+      "static-linked"
+    ],
+    "description": "Statically linked LevelDB wrapper for Nim",
+    "license": "MIT",
+    "web": "https://github.com/codex-storage/nim-leveldb"
+  },
+  {
+    "name": "nimtk",
+    "url": "https://github.com/neroist/nimtk",
+    "method": "git",
+    "tags": [
+      "gui",
+      "ui",
+      "tcl",
+      "tk",
+      "tkinter",
+      "wrapper",
+      "cross-platform",
+      "windows",
+      "linux",
+      "macosx"
+    ],
+    "description": "High-level Tk wrapper for Nim",
+    "license": "MIT",
+    "web": "https://github.com/neroist/nimtk"
+  },
+  {
+    "name": "clap",
+    "url": "https://github.com/morganholly/nim-clap",
+    "method": "git",
+    "tags": [
+      "audio",
+      "plugin",
+      "audio-plugin",
+      "clap",
+      "clap-plugin",
+      "wrapper",
+      "sound"
+    ],
+    "description": "Clap audio plugin bindings",
+    "license": "MIT",
+    "web": "https://github.com/morganholly/nim-clap"
+  },
+  {
+    "name": "negl",
+    "url": "https://github.com/lualvsil/negl",
+    "method": "git",
+    "tags": [
+      "binding",
+      "egl",
+      "opengl",
+      "gles",
+      "android"
+    ],
+    "description": "Nim bindings for EGL",
+    "license": "MIT",
+    "web": "https://github.com/lualvsil/negl"
+  },
+  {
+    "name": "rng",
+    "url": "https://github.com/penguinite/rng",
+    "method": "git",
+    "tags": [
+      "random",
+      "sysrand",
+      "rng",
+      "crypto",
+      "cross"
+    ],
+    "description": "Basic wrapper over std/sysrand",
+    "license": "BSD-3-Clause",
+    "web": "https://github.com/penguinite/rng"
+  },
+  {
+    "name": "businessdays",
+    "url": "https://github.com/GeK2K/businessdays",
+    "method": "git",
+    "tags": [
+      "calendar",
+      "businessday",
+      "bizday",
+      "holiday"
+    ],
+    "description": "Business Days (or Working Days) calculator.",
+    "license": "MIT",
+    "web": "https://github.com/GeK2K/businessdays"
+  },
+  {
+    "name": "nim_lk",
+    "url": "https://git.sr.ht/~ehmry/nim_lk",
+    "method": "git",
+    "tags": [
+      "package",
+      "sbom"
+    ],
+    "description": "Nix lockfile generator",
+    "license": "BSD-3-Clause",
+    "web": "https://git.sr.ht/~ehmry/nim_lk"
+  },
+  {
+    "name": "gitty",
+    "url": "https://github.com/chrischtel/gitty",
+    "method": "git",
+    "tags": [
+      "cli",
+      "tool",
+      "gitignore"
+    ],
+    "description": "Easily create .gitignore files from your terminal",
+    "license": "BSD-3-Clause",
+    "web": "https://github.com/chrischtel/gitty"
   }
 ]
